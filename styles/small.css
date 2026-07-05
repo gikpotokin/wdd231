@@ -318,8 +318,7 @@ footer p {
 
 .social img {
     width: 42px;
-    transition: .3s;
-    filter: brightness(0) invert(1);
+    
 }
 
 .social img:hover {
