@@ -1,0 +1,204 @@
+@media screen and (min-width: 768px) {
+
+    
+
+    header {
+        padding: 1rem 2.5rem;
+    }
+
+    .logo-container {
+        gap: 1rem;
+    }
+
+    .logo-container img {
+        width: 65px;
+    }
+
+    .site-name {
+        font-size: 2rem;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+    
+
+    nav {
+        display: block;
+        background: linear-gradient(90deg,
+                var(--primary),
+                var(--secondary));
+
+        box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li {
+        flex: 1;
+        border: none;
+    }
+
+    nav a {
+
+        text-align: center;
+
+        padding: 1rem;
+
+        border-right: 1px solid rgba(255, 255, 255, .2);
+
+        transition: all .3s ease;
+    }
+
+    nav li:last-child a {
+        border-right: none;
+    }
+
+    nav a:hover,
+    nav a.active {
+
+        background: linear-gradient(135deg,
+                var(--accent),
+                var(--accent-light));
+
+        color: var(--dark);
+    }
+
+
+    main {
+        padding: 2rem;
+    }
+
+    main h1 {
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        align-items: start;
+    }
+
+
+    .card,
+    .certificate {
+
+        transition: all .35s ease;
+
+        border-radius: 14px;
+    }
+
+    .card:hover,
+    .certificate:hover {
+
+        transform: translateY(-6px);
+
+        box-shadow: 0 18px 35px rgba(15, 23, 42, .12);
+    }
+
+    .card h2,
+    .certificate h2 {
+
+        font-size: 1.35rem;
+
+        padding: 1rem;
+    }
+
+    .card p {
+        font-size: 1.05rem;
+    }
+
+    .profile-image {
+
+        width: 80%;
+
+        max-width: 320px;
+
+        margin: 2rem auto;
+    }
+
+    .button-container {
+
+        justify-content: center;
+
+        gap: 1rem;
+    }
+
+    .button-container button {
+
+        flex: 1;
+
+        max-width: 220px;
+
+        font-size: 1rem;
+
+        padding: 1rem;
+    }
+
+
+    #courseContainer {
+
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 1.25rem;
+
+        margin-top: 1rem;
+    }
+
+    .course-card {
+
+        padding: 1.4rem;
+
+        font-size: 1.05rem;
+    }
+
+    .course-card:hover {
+
+        transform: translateY(-6px) scale(1.02);
+
+        box-shadow: 0 12px 25px rgba(0, 0, 0, .15);
+    }
+
+    .credits {
+
+        font-size: 1.1rem;
+
+        margin-top: 1rem;
+    }
+
+
+    footer {
+
+        padding: 3rem 2rem;
+    }
+
+    footer p {
+
+        font-size: 1rem;
+    }
+
+    .social {
+
+        gap: 2rem;
+    }
+
+    .social img {
+
+        width: 48px;
+    }
+
+    .social img:hover {
+
+        transform: scale(1.2) rotate(8deg);
+    }
+
+}

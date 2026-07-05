@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD231 | Home | Godswill Moses Ikpotokin</title>
+
+    <meta name="description" content="WDD231 Home Page showcasing course work, certificates, and projects.">
+    <meta name="author" content="Godswill Moses Ikpotokin">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo-container">
+
+            <img
+                src="images/logo.svg"
+                alt="Lagos Chamber of Commerce Logo"
+                width="60"
+                height="60">
+
+            <span class="site-name">
+                Lagos Chamber of Commerce
+            </span>
+
+        </div>
+
+        <button
+            id="menuButton"
+            aria-label="Open Navigation"
+            aria-expanded="false">
+
+
+        </button>
+
+    </header>
+
+  
+
+    <nav id="navigation">
+
+        <ul>
+
+            <li>
+                <a href="index.html" class="active">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="chamber/">
+                    Chamber Project
+                </a>
+            </li>
+
+            <li>
+                <a href="final/">
+                    Final Project
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <main>
+
+        <h1>Home</h1>
+
+        <div class="home-grid">
+
+
+            <section class="card">
+
+                <h2>About Me</h2>
+
+                <p>
+
+                    Hello! My name is <strong><a href="https://www.ikpotokin.ng" target="_blank" rel="noopener noreferrer">Godswill Moses Ikpotokin</a></strong>.
+                    I am currently studying Web Frontend Development
+                    and Software Development. This website contains my
+                    class projects, certificates, and other learning
+                    activities completed throughout the WDD231 course.
+
+                </p>
+
+            </section>
+
+
+            <section class="card">
+
+                <h2>Student Photo</h2>
+
+                <img
+                    src="images/profile.jpg"
+                    alt="Godswill Moses Ikpotokin"
+                    class="profile-image"
+                    loading="lazy">
+
+            </section>
+
+        </div>
+
+        
+
+        <section class="certificate">
+
+            <h2>Web Certificate Courses</h2>
+
+            <div class="button-container">
+
+                <button id="allCourses">
+                    All
+                </button>
+
+                <button id="cseCourses">
+                    CSE
+                </button>
+
+                <button id="wddCourses">
+                    WDD
+                </button>
+
+            </div>
+
+
+            <div id="courseContainer">
+
+            </div>
+
+            <p class="credits">
+
+                The total credits for courses listed above is
+                <span id="totalCredits">0</span>
+
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="social">
+
+            <a
+                href="https://github.com/gikpotokin"
+                target="_blank"
+                rel="noopener">
+
+                <img
+                    src="images/github.svg"
+                    alt="GitHub">
+
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/ikpotokin/"
+                target="_blank"
+                rel="noopener">
+
+                <img
+                    src="images/linkedin.svg"
+                    alt="LinkedIn">
+
+            </a>
+
+            <a
+                href="https://web.facebook.com/ikpotoking/"
+                target="_blank"
+                rel="noopener">
+
+                <img
+                    src="images/facebook.svg"
+                    alt="Facebook">
+
+            </a>
+
+        </div>
+
+        <p>
+
+            &copy;
+            <span id="currentyear"></span>
+
+            | Godswill Moses Ikpotokin |
+            Lagos,Nigeria
+
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+</html>
