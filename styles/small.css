@@ -165,7 +165,7 @@ main h1 {
 
     border: 1px solid var(--border);
 
-    border-radius: 12px;
+    border-radius: 1px;
 
     overflow: hidden;
 
@@ -195,7 +195,7 @@ main h1 {
 .profile-image {
     width: 90%;
     margin: 1.5rem auto;
-    border-radius: 10px;
+    border-radius: 1px;
 }
 
 
@@ -213,7 +213,7 @@ main h1 {
 
     border: none;
 
-    border-radius: 10px;
+    border-radius: 1px;
 
     cursor: pointer;
 
@@ -256,7 +256,7 @@ main h1 {
 
     border: 1px solid var(--border);
 
-    border-radius: 10px;
+    border-radius: 1px;
 
     padding: 1rem;
 

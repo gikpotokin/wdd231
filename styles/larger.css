@@ -91,7 +91,7 @@
 
         transition: all .35s ease;
 
-        border-radius: 14px;
+        border-radius: 1px;
     }
 
     .card:hover,
