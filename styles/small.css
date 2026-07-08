@@ -140,6 +140,8 @@ nav a.active {
     color: var(--dark);
 }
 
+
+
 main {
     max-width: 1200px;
     margin: auto;

@@ -49,10 +49,9 @@ const courses = [
     }
 
 ];
-
 const courseContainer = document.querySelector("#courseContainer");
 const totalCredits = document.querySelector("#totalCredits");
-
+const completedCourses = document.querySelector("#completedCourses");
 function displayCourses(courseList) {
 
     courseContainer.innerHTML = "";
@@ -67,15 +66,23 @@ function displayCourses(courseList) {
             card.classList.add("completed");
         }
 
-        card.innerHTML = `
-            ${course.subject} ${course.number}
-        `;
+        card.textContent = `${course.subject} ${course.number}`;
 
         courseContainer.appendChild(card);
 
     });
 
     calculateCredits(courseList);
+    calculateCompleted(courseList);
+
+}
+
+function calculateCompleted(courseList) {
+
+    const completed = courseList.filter(course => course.completed).length * 2;
+
+    completedCourses.textContent = completed;
+
 }
 
 function calculateCredits(courseList) {
@@ -91,7 +98,6 @@ function calculateCredits(courseList) {
 
 displayCourses(courses);
 
-// Button Event Listeners
 
 document.querySelector("#allCourses").addEventListener("click", () => {
 
