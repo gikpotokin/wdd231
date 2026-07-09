@@ -32,11 +32,9 @@
 
         box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
     }
-
     nav ul {
         display: flex;
-        justify-content: left;
-        align-items: left;
+        align-items: center;
     }
 
     nav li {
