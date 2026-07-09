@@ -78,22 +78,31 @@
         margin-bottom: 2rem;
     }
 
-    .home-grid {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 2rem;
-        align-items: start;
+
+    .home-grid{
+        display:grid;
+        grid-template-columns:2fr 1fr;
+        align-items:stretch;
+    }
+
+    .card{
+        height:100%;
+    }
+
+    .card p{
+        flex:1;
     }
 
 
-    .card,
     .certificate {
 
         transition: all .35s ease;
 
         border-radius: 1px;
     }
-
+    .certificate{
+        margin-top:2rem;
+    }
     .card:hover,
     .certificate:hover {
 

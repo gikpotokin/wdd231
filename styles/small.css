@@ -152,13 +152,25 @@ main h1 {
     margin-bottom: 1rem;
     color: var(--primary);
 }
-
 .home-grid {
     display: grid;
     gap: 1.5rem;
+    margin-bottom: 2rem; /* creates space before certificates */
 }
 
-.card,
+.card {
+    display: flex;
+    flex-direction: column;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(15,23,42,.08);
+
+    height: 100%;
+}
+
 .certificate {
 
     background: var(--surface);
