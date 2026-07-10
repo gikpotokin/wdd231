@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- ==========================================
+         Lagos Chamber of Commerce
+         WDD231 Chamber Project
+         Author: Godswill Moses Ikpotokin
+    =========================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Lagos Chamber of Commerce | Business Directory</title>
+
+    <meta
+        name="description"
+        content="The Lagos Chamber of Commerce Business Directory connects residents, visitors, entrepreneurs, and investors with trusted businesses throughout Lagos State.">
+
+    <meta
+        name="author"
+        content="Godswill Moses Ikpotokin">
+
+    <!-- Open Graph -->
+
+    <meta property="og:title"
+          content="Lagos Chamber of Commerce">
+
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:description"
+          content="Business Directory of the Lagos Chamber of Commerce">
+
+    <meta property="og:image"
+          content="https://yourusername.github.io/wdd231/chamber/images/logo.png">
+
+    <meta property="og:url"
+          content="https://yourusername.github.io/wdd231/chamber/directory.html">
+
+    <!-- Favicon -->
+
+    <link
+        rel="icon"
+        href="../images/favicon.ico">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+        <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+
+    <link rel="stylesheet" href="../styles/chamber/normalize.css">
+    <link rel="stylesheet" href="../styles/chamber/small.css">
+    <link rel="stylesheet" href="../styles/chamber/larger.css">
+
+    
+
+    <script src="../scripts/chamber/directory.js" defer></script>
+    
+
+</head>
+
+<body>
+
+<!-- ==========================================
+     HEADER
+=========================================== -->
+
+<header>
+
+    <div class="header-container">
+
+        <a href="directory.html" class="logo-area">
+
+            <img
+                src="../images/logo.png"
+                alt="Lagos Chamber of Commerce Logo">
+
+            <div>
+
+                <h1>Lagos Chamber of Commerce</h1>
+
+                <span>
+                    Connecting Businesses • Growing Lagos
+                </span>
+
+            </div>
+
+        </a>
+
+        <button
+            id="menuButton"
+            aria-label="Open Navigation">
+
+            ☰
+
+        </button>
+
+        <nav id="navigation">
+
+            <ul>
+
+                <li>
+
+                    <a href="index.html">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a
+                        href="directory.html"
+                        class="active">
+
+                        Directory
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="join.html">
+
+                        Join
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="discover.html">
+
+                        Discover
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- ==========================================
+     MAIN
+=========================================== -->
+
+<main>
+
+    <section class="page-title">
+
+        <h2>Directory</h2>
+
+    </section>
+
+
+    <!-- =========================
+         VIEW TOGGLE
+    ========================== -->
+
+    <section class="view-buttons">
+
+        <button
+            id="gridView"
+            class="active">
+
+            Grid
+
+        </button>
+
+        <button
+            id="listView">
+
+            List
+
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         DIRECTORY
+    ========================== -->
+
+    <section
+        id="directory"
+        class="grid-view">
+
+        <!-- JavaScript loads members here -->
+
+    </section>
+
+</main>
+
+
+<!-- ==========================================
+     FOOTER
+=========================================== -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <!-- Contact -->
+
+        <section>
+
+            <h3>
+
+                Lagos Chamber of Commerce
+
+            </h3>
+
+            <p>
+
+                1 Idowu Taylor Street
+
+            </p>
+
+            <p>
+
+                Victoria Island
+
+            </p>
+
+            <p>
+
+                Lagos, Nigeria
+
+            </p>
+
+            <p>
+
+                info@lagoschamber.org
+
+            </p>
+
+            <p>
+
+                +234 (0) 1 462 1000
+
+            </p>
+
+        </section>
+
+
+        <!-- Social -->
+        <section class="social-links">
+
+            <a href="https://facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Facebook">
+
+                <i class="fab fa-facebook-f"></i>
+
+            </a>
+
+            <a href="https://x.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Twitter / X">
+
+                <i class="fab fa-x-twitter"></i>
+
+            </a>
+
+            <a href="https://linkedin.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn">
+
+                <i class="fab fa-linkedin-in"></i>
+
+            </a>
+
+            <a href="https://github.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+        </section>
+
+
+        <!-- Development -->
+
+        <section>
+
+            <p>
+
+                WDD231 Chamber Project
+
+            </p>
+
+            <p>
+
+                Godswill Moses Ikpotokin
+
+            </p>
+
+            <p>
+
+                © <span id="year"></span>
+
+                Lagos Chamber of Commerce
+
+            </p>
+
+            <p>
+
+                Last Modification:
+
+                <span id="lastModified"></span>
+
+            </p>
+
+        </section>
+
+    </div>
+
+</footer>
+
+
+
+</body>
+</html>

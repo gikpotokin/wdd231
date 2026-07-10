@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "name": "Dangote Industries Limited",
+        "tagline":"Africa's Largest Industrial Company",
+
+        "address": "Union Marble House, 1 Alfred Rewane Road, Ikoyi, Lagos",
+        "phone": "+234 (0) 1 448 0815",
+        "email": "info@dangote.com",
+        "website": "https://www.dangote.com",
+        "image": "https://tse1.mm.bing.net/th/id/OIP.TDQvfavsHSa3KUcOEZE0KAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "membership": 3,
+        "industry": "Manufacturing",
+        "description": "Africa's largest industrial conglomerate with interests in cement, sugar, salt, fertilizer, oil refining, and logistics."
+    },
+
+    {
+        "id": 2,
+        "name": "Guaranty Trust Bank Plc",
+        "tagline":"Africa's Largest Industrial Company",
+
+        "address": "635 Akin Adesola Street, Victoria Island, Lagos",
+        "phone": "+234 (0) 1 448 0000",
+        "email": "info@gtbank.com",
+        "website": "https://www.gtbank.com",
+        "image": "images/gtbank.webp",
+        "membership": 3,
+        "industry": "Banking",
+        "description": "One of Nigeria's leading financial institutions providing personal, corporate, and digital banking solutions."
+    },
+
+    {
+        "id": 3,
+        "name": "MTN Nigeria Communications Plc",
+        "address": "Golden Plaza, Falomo, Ikoyi, Lagos",
+        "phone": "+234 (0) 803 123 4567",
+        "email": "customercare@mtn.com",
+        "website": "https://www.mtn.ng",
+        "image": "images/mtn.webp",
+        "membership": 3,
+        "industry": "Telecommunications",
+        "description": "Nigeria's largest telecommunications company offering voice, broadband, enterprise, and fintech services."
+    },
+
+    {
+        "id": 4,
+        "name": "Interswitch Group",
+        "address": "Plot 1648C Oko Awo Close, Victoria Island, Lagos",
+        "phone": "+234 (0) 1 628 3888",
+        "email": "info@interswitchgroup.com",
+        "website": "https://www.interswitchgroup.com",
+        "image": "images/interswitch.webp",
+        "membership": 2,
+        "industry": "Financial Technology",
+        "description": "Leading African digital payments and commerce company providing secure electronic transaction solutions."
+    },
+
+    {
+        "id": 5,
+        "name": "Eko Hotels & Suites",
+        "address": "1415 Adetokunbo Ademola Street, Victoria Island, Lagos",
+        "phone": "+234 (0) 1 277 2700",
+        "email": "reservations@ekohotels.com",
+        "website": "https://www.ekohotels.com",
+        "image": "images/ekohotel.webp",
+        "membership": 2,
+        "industry": "Hospitality",
+        "description": "Nigeria's premier luxury hotel offering accommodation, conference facilities, fine dining, and entertainment."
+    },
+
+    {
+        "id": 6,
+        "name": "Red Star Express Plc",
+        "address": "Red Star House, Oshodi, Lagos",
+        "phone": "+234 (0) 1 279 5670",
+        "email": "info@redstarplc.com",
+        "website": "https://www.redstarplc.com",
+        "image": "images/redstar.webp",
+        "membership": 1,
+        "industry": "Logistics",
+        "description": "A trusted logistics and courier company delivering domestic and international shipping solutions across Nigeria."
+    },
+
+    {
+        "id": 7,
+        "name": "Presco Plc",
+        "address": "Victoria Island, Lagos Office",
+        "phone": "+234 (0) 1 280 4567",
+        "email": "info@prescoplc.com",
+        "website": "https://www.prescoplc.com",
+        "image": "images/presco.webp",
+        "membership": 1,
+        "industry": "Agriculture",
+        "description": "An integrated agro-industrial company specializing in oil palm plantations, edible oils, and agricultural products."
+    }
+]

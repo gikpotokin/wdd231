@@ -1,0 +1,255 @@
+/* ==========================================
+   normalize.css
+   Lagos Chamber of Commerce
+   WDD231 Chamber Project
+
+   Author: Godswill Moses Ikpotokin
+========================================== */
+
+/* -------------------------
+   Box Sizing
+------------------------- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* -------------------------
+   Reset Margins
+------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------
+   HTML
+------------------------- */
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* -------------------------
+   Body
+------------------------- */
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+}
+
+/* -------------------------
+   Images
+------------------------- */
+
+img,
+picture,
+svg,
+canvas,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+/* -------------------------
+   Forms
+------------------------- */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* -------------------------
+   Lists
+------------------------- */
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* -------------------------
+   Links
+------------------------- */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* -------------------------
+   Tables
+------------------------- */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* -------------------------
+   Headings
+------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+}
+
+/* -------------------------
+   Paragraphs
+------------------------- */
+
+p {
+    overflow-wrap: break-word;
+}
+
+/* -------------------------
+   Horizontal Rule
+------------------------- */
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* -------------------------
+   Text Selection
+------------------------- */
+
+::selection {
+    background: #006b3c;
+    color: #ffffff;
+}
+
+/* -------------------------
+   Focus Accessibility
+------------------------- */
+
+:focus-visible {
+    outline: 3px solid #d4af37;
+    outline-offset: 3px;
+}
+
+/* -------------------------
+   Hidden Attribute
+------------------------- */
+
+[hidden] {
+    display: none !important;
+}
+
+/* -------------------------
+   Disabled Buttons
+------------------------- */
+
+button:disabled {
+    opacity: .6;
+    cursor: not-allowed;
+}
+
+/* -------------------------
+   Responsive Media
+------------------------- */
+
+iframe {
+    max-width: 100%;
+}
+
+/* -------------------------
+   Utility Classes
+------------------------- */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+}
+
+/* -------------------------
+   Remove Default Fieldset
+------------------------- */
+
+fieldset {
+    border: none;
+}
+
+/* -------------------------
+   Address
+------------------------- */
+
+address {
+    font-style: normal;
+}
+
+/* -------------------------
+   Strong
+------------------------- */
+
+strong {
+    font-weight: 700;
+}
+
+/* -------------------------
+   Code
+------------------------- */
+
+code,
+pre {
+    font-family: Consolas, Monaco, monospace;
+}
+
+/* -------------------------
+   Prevent Overflow
+------------------------- */
+
+body,
+main,
+section,
+article,
+header,
+footer,
+nav {
+    overflow-wrap: break-word;
+}
+
+/* -------------------------
+   Smooth Transitions
+------------------------- */
+
+a,
+button,
+input,
+textarea,
+select {
+    transition: all .25s ease;
+}

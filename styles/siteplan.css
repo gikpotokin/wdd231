@@ -1,0 +1,442 @@
+/* ===========================
+   LAGOS CHAMBER OF COMMERCE
+   SITE PLAN STYLESHEET
+   Author: Godswill Moses Ikpotokin
+=========================== */
+
+/* ---------- RESET ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.8;
+}
+
+
+/* ---------- VARIABLES ---------- */
+
+:root{
+
+    --primary:#006B3C;
+    --secondary:#D4AF37;
+    --light:#ffffff;
+    --background:#f5f7fa;
+    --text:#333333;
+    --border:#dcdcdc;
+
+}
+
+
+/* ---------- HEADER ---------- */
+
+header{
+
+    background:var(--primary);
+    color:white;
+
+    text-align:center;
+
+    padding:40px 20px;
+
+}
+
+header h1{
+
+    font-family:'Merriweather',serif;
+    font-size:2.2rem;
+
+}
+
+
+/* ---------- MAIN SECTIONS ---------- */
+
+section{
+
+    width:90%;
+    max-width:1100px;
+
+    margin:35px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+}
+
+
+/* ---------- HEADINGS ---------- */
+
+h2{
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+    border-bottom:3px solid var(--secondary);
+
+    display:inline-block;
+
+    padding-bottom:5px;
+
+    font-family:'Merriweather',serif;
+
+}
+
+h3{
+
+    color:var(--primary);
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+}
+
+
+/* ---------- PARAGRAPHS ---------- */
+
+p{
+
+    margin:12px 0;
+
+}
+
+
+/* ---------- LISTS ---------- */
+
+ul{
+
+    margin-left:25px;
+
+}
+
+li{
+
+    margin:10px 0;
+
+}
+
+
+/* ---------- LINKS ---------- */
+
+a{
+
+    color:var(--primary);
+
+    text-decoration:none;
+
+}
+
+a:hover{
+
+    color:var(--secondary);
+
+}
+
+
+/* ---------- COLOR SWATCHES ---------- */
+
+.color-swatch{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:160px;
+
+    height:80px;
+
+    margin:10px;
+
+    border-radius:8px;
+
+    color:white;
+
+    font-weight:600;
+
+    text-align:center;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+}
+
+.green{
+
+    background:#006B3C;
+
+}
+
+.gold{
+
+    background:#D4AF37;
+
+    color:#222;
+
+}
+
+.light{
+
+    background:#F8F9FA;
+
+    color:#222;
+
+    border:1px solid #ccc;
+
+}
+
+.dark{
+
+    background:#222;
+
+}
+
+
+/* ---------- SITE MAP ---------- */
+
+pre{
+
+    background:#fafafa;
+
+    padding:25px;
+
+    border-left:5px solid var(--primary);
+
+    overflow:auto;
+
+    font-size:15px;
+
+}
+
+
+/* ---------- WIREFRAMES ---------- */
+
+.wireframe-group{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+
+    margin-top:25px;
+
+}
+
+.wireframe-item{
+
+    text-align:center;
+
+}
+
+.wireframe-title{
+
+    font-size:20px;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+    color:var(--primary);
+
+}
+
+.wireframe-item img{
+
+    max-width:100%;
+
+    border:2px solid #ddd;
+
+    border-radius:10px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+
+}
+
+
+/* ---------- TABLE ---------- */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+table th{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+table th,
+table td{
+
+    border:1px solid #ddd;
+
+    padding:12px;
+
+    text-align:left;
+
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer{
+
+    margin-top:50px;
+
+    background:var(--primary);
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    font-size:.95rem;
+
+}
+
+
+/* ---------- CODE ---------- */
+
+code{
+
+    background:#efefef;
+
+    padding:2px 6px;
+
+    border-radius:4px;
+
+}
+
+
+/* ---------- STRONG ---------- */
+
+strong{
+
+    color:var(--primary);
+
+}
+
+
+/* ---------- IMAGES ---------- */
+
+img{
+
+    max-width:100%;
+
+}
+
+
+/* ---------- RESPONSIVE ---------- */
+
+@media screen and (max-width:900px){
+
+header h1{
+
+    font-size:1.8rem;
+
+}
+
+section{
+
+    width:95%;
+
+    padding:20px;
+
+}
+
+.wireframe-group{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.color-swatch{
+
+    width:140px;
+
+}
+
+}
+
+
+@media screen and (max-width:600px){
+
+header{
+
+    padding:30px 15px;
+
+}
+
+header h1{
+
+    font-size:1.5rem;
+
+}
+
+section{
+
+    padding:18px;
+
+}
+
+h2{
+
+    font-size:1.4rem;
+
+}
+
+pre{
+
+    font-size:13px;
+
+}
+
+.color-swatch{
+
+    width:100%;
+
+    height:60px;
+
+    margin:8px 0;
+
+}
+
+footer{
+
+    font-size:.85rem;
+
+}
+
+}
