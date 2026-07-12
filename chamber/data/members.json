@@ -17,13 +17,13 @@
     {
         "id": 2,
         "name": "Guaranty Trust Bank Plc",
-        "tagline":"Africa's Largest Industrial Company",
+        "tagline":"Nigerian Best Bank",
 
         "address": "635 Akin Adesola Street, Victoria Island, Lagos",
         "phone": "+234 (0) 1 448 0000",
         "email": "info@gtbank.com",
         "website": "https://www.gtbank.com",
-        "image": "images/gtbank.webp",
+        "image": "https://cdn.brandfetch.io/idMFED6Iz3/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1668518523113",
         "membership": 3,
         "industry": "Banking",
         "description": "One of Nigeria's leading financial institutions providing personal, corporate, and digital banking solutions."
@@ -32,11 +32,13 @@
     {
         "id": 3,
         "name": "MTN Nigeria Communications Plc",
+        "tagline":"Africa's Largest telecommunication Company",
+
         "address": "Golden Plaza, Falomo, Ikoyi, Lagos",
         "phone": "+234 (0) 803 123 4567",
         "email": "customercare@mtn.com",
         "website": "https://www.mtn.ng",
-        "image": "images/mtn.webp",
+        "image": "https://images.prismic.io/brandfetch/e1962e8b-53a5-41fe-9e35-3c66851d2a47_MTN+new+logo.png?auto=compress,format&rect=0,47,640,335&w=1200&h=628",
         "membership": 3,
         "industry": "Telecommunications",
         "description": "Nigeria's largest telecommunications company offering voice, broadband, enterprise, and fintech services."
@@ -45,11 +47,13 @@
     {
         "id": 4,
         "name": "Interswitch Group",
+        "tagline":"Africa's Largest Financial Company",
+
         "address": "Plot 1648C Oko Awo Close, Victoria Island, Lagos",
         "phone": "+234 (0) 1 628 3888",
         "email": "info@interswitchgroup.com",
         "website": "https://www.interswitchgroup.com",
-        "image": "images/interswitch.webp",
+        "image": "https://nanprwire.ng/wp-content/uploads/2022/05/1200px-Interswitch_logo.svg_.png",
         "membership": 2,
         "industry": "Financial Technology",
         "description": "Leading African digital payments and commerce company providing secure electronic transaction solutions."
@@ -58,11 +62,13 @@
     {
         "id": 5,
         "name": "Eko Hotels & Suites",
+        "tagline":"Best Hospitality",
+
         "address": "1415 Adetokunbo Ademola Street, Victoria Island, Lagos",
         "phone": "+234 (0) 1 277 2700",
         "email": "reservations@ekohotels.com",
         "website": "https://www.ekohotels.com",
-        "image": "images/ekohotel.webp",
+        "image": "https://sumellist.com/wp-content/uploads/2022/09/EKO.jpg",
         "membership": 2,
         "industry": "Hospitality",
         "description": "Nigeria's premier luxury hotel offering accommodation, conference facilities, fine dining, and entertainment."
@@ -75,7 +81,7 @@
         "phone": "+234 (0) 1 279 5670",
         "email": "info@redstarplc.com",
         "website": "https://www.redstarplc.com",
-        "image": "images/redstar.webp",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2PzkWfC3dijEN8rdFB1g5WtFuDP0reTuOEQ7CtNoXtVYID1sxYUlZ1ntdAlXVQM6NV4ZO3puTZRWgvl726JExck12rz3K4TnSWhvOVOnXQv5gt5kI41wY3GbG_B-scL9C1ftHeNQMRZJY/s1600/redstar+express.jpg",
         "membership": 1,
         "industry": "Logistics",
         "description": "A trusted logistics and courier company delivering domestic and international shipping solutions across Nigeria."
@@ -88,9 +94,23 @@
         "phone": "+234 (0) 1 280 4567",
         "email": "info@prescoplc.com",
         "website": "https://www.prescoplc.com",
-        "image": "images/presco.webp",
+        "image": "https://tse1.mm.bing.net/th/id/OIP.lN5rF09QrQd3Q9oAkeyF4AHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
         "membership": 1,
         "industry": "Agriculture",
         "description": "An integrated agro-industrial company specializing in oil palm plantations, edible oils, and agricultural products."
+    },
+    {
+        "id": 8,
+        "name": "Applinet Technology",
+        "tagline":"Africa Centered Technology Company",
+
+        "address": "Egbeda, Lagos Office",
+        "phone": "+234 803 713 7902",
+        "email": "developers@applinet.com.ng",
+        "website": "https://www.applinet.com",
+        "image": "https://poweredby.applinet.com.ng/applinetLogo.svg",
+        "membership": 1,
+        "industry": "Technology",
+        "description": "Provide AI-driven Solutions and innovations in African Context"
     }
 ]
