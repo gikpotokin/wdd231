@@ -236,7 +236,12 @@ main {
 
 }
 
-
+.site-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
 .page-title {
 
     text-align: center;
@@ -285,7 +290,7 @@ main {
 }
 
 
-section {
+section div {
 
     margin-bottom: 2rem;
 
@@ -578,6 +583,8 @@ button {
     align-items: center;
 
     gap: 1rem;
+
+    margin-bottom: 15px;
 
 }
 
