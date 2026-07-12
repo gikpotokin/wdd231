@@ -1,10 +1,10 @@
-/* ==========================================
+/* 
    directory.js
    Lagos Chamber of Commerce
    WDD231 Chamber Project
 
    Author: Godswill Moses Ikpotokin
-========================================== */
+*/
 
 const directory = document.querySelector("#directory");
 
@@ -16,10 +16,6 @@ const menuButton = document.querySelector("#menuButton");
 
 const navigation = document.querySelector("#navigation");
 
-
-/* ==========================================
-   MOBILE NAVIGATION
-========================================== */
 
 if (menuButton) {
 
@@ -38,10 +34,6 @@ if (menuButton) {
 
 }
 
-
-/* ==========================================
-   FETCH MEMBERS
-========================================== */
 
 const url = "../chamber/data/members.json";
 
@@ -93,9 +85,6 @@ async function getMembers() {
 getMembers();
 
 
-/* ==========================================
-   DISPLAY MEMBERS
-========================================== */
 function displayMembers(members) {
 
     directory.innerHTML = "";
@@ -168,9 +157,6 @@ function displayMembers(members) {
     });
 
 }
-/* ==========================================
-   GRID VIEW
-========================================== */
 
 gridButton.addEventListener("click", () => {
 
@@ -185,9 +171,6 @@ gridButton.addEventListener("click", () => {
 });
 
 
-/* ==========================================
-   LIST VIEW
-========================================== */
 
 listButton.addEventListener("click", () => {
 
@@ -202,24 +185,14 @@ listButton.addEventListener("click", () => {
 });
 
 
-/* ==========================================
-   FOOTER YEAR
-========================================== */
 
 document.querySelector("#year").textContent =
 new Date().getFullYear();
 
 
-/* ==========================================
-   LAST MODIFIED
-========================================== */
-
 document.querySelector("#lastModified").textContent =
 document.lastModified;
 
 
-/* ==========================================
-   DEFAULT VIEW
-========================================== */
 
 directory.classList.add("grid-view");
