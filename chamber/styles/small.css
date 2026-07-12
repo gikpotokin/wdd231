@@ -226,17 +226,13 @@ header {
 
 
 
-#navigation {
-
-    display: none;
-
-}
-
 
 
 main {
 
     padding: 2rem 0;
+    animation: fadeIn .5s ease;
+
 
 }
 
@@ -250,27 +246,6 @@ main {
 }
 
 
-.page-title p {
-
-    max-width: 700px;
-
-    margin: auto;
-
-}
-
-
-
-.view-buttons {
-
-    display: flex;
-
-    justify-content: center;
-
-    gap: 1rem;
-
-    margin-bottom: 2rem;
-
-}
 
 
 .view-buttons button {
@@ -444,21 +419,6 @@ button {
 }
 
 
-#menuButton {
-
-    display: block;
-
-    font-size: 2rem;
-
-    color: var(--primary-color);
-
-    background: transparent;
-
-    padding: .25rem .5rem;
-
-    border-radius: 5px;
-
-}
 
 #menuButton:hover {
 
@@ -483,7 +443,7 @@ button {
 
 .page-title p {
 
-    max-width: 650px;
+    max-width: 700px;
 
     margin: auto;
 
@@ -509,19 +469,12 @@ button {
     border-radius:8px;
 
     overflow:hidden;
+        animation: cardFade .45s ease;
+
 
 }
 
 
-.card-header{
-
-    text-align:center;
-
-    padding:1rem;
-
-    border-bottom:1px solid #999;
-
-}
 
 
 .card-header h3{
@@ -614,15 +567,6 @@ button {
 }
 
 
-.list-view {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: .8rem;
-
-}
 
 
 .view-buttons {
@@ -651,11 +595,6 @@ button {
 
 }
 
-main {
-
-    animation: fadeIn .5s ease;
-
-}
 
 @keyframes fadeIn {
 
@@ -769,15 +708,6 @@ button:focus {
 }
 
 
-.member-card{
-
-    background:#ededed;
-
-    border-radius:8px;
-
-    overflow:hidden;
-
-}
 
 .card-header{
 
@@ -789,13 +719,6 @@ button:focus {
 
 }
 
-.card-header h3{
-
-    margin:0;
-
-    font-size:1.7rem;
-
-}
 
 .card-header p{
 
@@ -817,15 +740,6 @@ button:focus {
 
 }
 
-.card-image img{
-
-    width:95px;
-
-    height:95px;
-
-    object-fit:contain;
-
-}
 
 .card-details{
 
@@ -1111,12 +1025,6 @@ button:focus {
 }
 
 
-
-.member-card {
-
-    animation: cardFade .45s ease;
-
-}
 
 
 @keyframes cardFade {
@@ -1675,16 +1583,6 @@ button,
         width: 100px;
 
         height: 100px;
-
-    }
-
-    .view-buttons button {
-
-        min-width: 100px;
-
-        padding: .65rem 1rem;
-
-        font-size: .9rem;
 
     }
 
