@@ -171,17 +171,6 @@
 
 }
 
-.card-content{
-
-    display:grid;
-
-    grid-template-columns:100px 1fr;
-
-    gap:15px;
-
-    padding:15px;
-
-}
 
 .card-image{
 
@@ -228,45 +217,36 @@
     font-weight:700;
 
 }
-
-#directory.list-view{
-
-    display:block;
-
+#directory.list-view {
+    display: block;
+    padding: 0 250px;
 }
-
 #directory.list-view .member-card{
-
     display:grid;
-
-    grid-template-columns:240px 1fr;
-
-    margin-bottom:15px;
-
+    grid-template-columns:400px 1fr;
+    margin-bottom:1rem;
+    background:#efefef;
 }
 
 #directory.list-view .card-header{
-
-    border-right:1px solid #bdbdbd;
-
-    border-bottom:none;
-
     display:flex;
-
-    justify-content:center;
-
     flex-direction:column;
+    justify-content:center;
+    text-align:left;
 
+    border-right:1px solid #ccc;
+    border-bottom:none;
+    padding:2rem;
 }
-
 #directory.list-view .card-content{
-
     display:flex;
-
     align-items:center;
-
+    padding-top: 1rem;
 }
 
+#directory.list-view .card-image{
+    display:none;
+}
 
 .footer-container{
 
