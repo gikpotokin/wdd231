@@ -1,13 +1,7 @@
 
-// =======================================================
-// WEATHER
-// =======================================================
-
-// Lagos Coordinates
 const lat = 6.5244;
 const lon = 3.3792;
 
-// Replace with YOUR OpenWeather API Key
 const apiKey = "7f3f175574af0a02b854eb363c736a02";
 
 const currentURL =
@@ -130,10 +124,6 @@ getWeather();
 getForecast();
 
 
-// =======================================================
-// MEMBER SPOTLIGHTS
-// =======================================================
-
 const spotlightContainer =
 document.querySelector("#spotlight-container");
 
@@ -177,18 +167,14 @@ function displaySpotlights(members) {
 
     spotlightContainer.innerHTML = "";
 
-    // Gold (3) and Silver (2)
 
     const qualified = members.filter(member =>
         member.membership === 2 ||
         member.membership === 3
     );
 
-    // Shuffle
 
     qualified.sort(() => Math.random() - 0.5);
-
-    // Pick first three
 
     const selected = qualified.slice(0, 3);
 

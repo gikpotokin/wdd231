@@ -9,10 +9,10 @@
 :root {
 
     /* Primary Brand Colors */
-    --primary-color: #0B234F;      /* Deep navy from the logo */
-    --primary-dark: #081A3A;       /* Darker navy */
-    --secondary-color: #D4AF37;    /* Gold accent */
-    --accent-color: #355D9A;       /* Muted royal blue */
+    --primary-color: #0B234F;      
+    --primary-dark: #081A3A;       
+    --secondary-color: #D4AF37;    
+    --accent-color: #355D9A;       
 
     /* Backgrounds */
     --background-color: #F5F7FA;
@@ -99,6 +99,8 @@ p {
     color: var(--text-light);
 
 }
+
+
 
 small {
 
@@ -281,11 +283,10 @@ main h1 {
     font-weight: 700;
 }
 
-/* ===========================================
+/* 
    HOME PAGE
-=========================================== */
+ */
 
-/* ---------- Hero ---------- */
 
 .hero {
     position: relative;
@@ -305,44 +306,14 @@ main h1 {
     object-fit: cover;
 }
 
-.hero-content {
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,.45);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    text-align: center;
-    color: white;
-}
-
-.hero-content h1 {
-    margin-bottom: .5rem;
-    color: white;
-}
 
 .hero-content p {
     margin-bottom: 1.25rem;
-    max-width: 450px;
+    max-width:700px;
+    font-size:1.15rem;    color: antiquewhite;
 }
 
-.btn-primary {
-    display: inline-block;
-    padding: .8rem 1.6rem;
-    background: var(--secondary-color);
-    color: #222;
-    font-weight: 700;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: .3s;
-}
 
-.btn-primary:hover {
-    background: var(--primary-color);
-    color: white;
-}
 
 
 
@@ -1298,19 +1269,6 @@ footer #lastModified {
 
 }
 
-.btn-primary {
-
-    background: var(--primary-color);
-
-    color: #ffffff;
-
-}
-
-.btn-primary:hover {
-
-    background: var(--accent-color);
-
-}
 
 .btn-secondary {
 
@@ -1560,27 +1518,11 @@ button,
 
 
 
-/* ===========================================
-   HOME PAGE
-=========================================== */
-
-/* ---------- Hero ---------- */
-/* =========================
-   HERO
-========================= */
-
 .hero{
     position:relative;
     width:100%;
     margin:0;
     overflow:hidden;
-}
-
-.hero picture,
-.hero img{
-    display:block;
-    width:100%;
-    height:100%;
 }
 
 .hero img{
@@ -1618,13 +1560,8 @@ button,
     margin-bottom:.75rem;
 }
 
-.hero-content p{
-    max-width:700px;
-    font-size:1.15rem;
-    margin-bottom:2rem;
-}
 
-.btn-primary{
+.btn-content{
 
     display:inline-block;
 
@@ -1644,7 +1581,7 @@ button,
 
 }
 
-.btn-primary:hover{
+.btn-content:hover{
 
     background:white;
 

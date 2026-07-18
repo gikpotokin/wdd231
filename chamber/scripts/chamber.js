@@ -22,11 +22,6 @@ if (menuButton) {
 }
 
 
-
-// ============================
-// Footer
-// ============================
-
 const year = document.querySelector("#year");
 const lastModified = document.querySelector("#lastModified");
 
