@@ -893,7 +893,6 @@ button:focus {
 
     font-weight: 500;
 
-    word-break: break-word;
 
 }
 
@@ -1460,7 +1459,7 @@ button,
 
     .card-info p{
         font-size:.9rem;
-        word-break:break-word;
+        word-break:break-all;
     }
 
     .badge{
