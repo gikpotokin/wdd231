@@ -12,27 +12,6 @@ const gridButton = document.querySelector("#gridView");
 
 const listButton = document.querySelector("#listView");
 
-const menuButton = document.querySelector("#menuButton");
-
-const navigation = document.querySelector("#navigation");
-
-
-if (menuButton) {
-
-    menuButton.addEventListener("click", () => {
-
-        navigation.classList.toggle("open");
-
-        menuButton.classList.toggle("open");
-
-        menuButton.textContent =
-            navigation.classList.contains("open")
-            ? "✕"
-            : "☰";
-
-    });
-
-}
 
 
 const url = "../chamber/data/members.json";
@@ -186,12 +165,12 @@ listButton.addEventListener("click", () => {
 
 
 
-document.querySelector("#year").textContent =
-new Date().getFullYear();
+// document.querySelector("#year").textContent =
+// new Date().getFullYear();
 
 
-document.querySelector("#lastModified").textContent =
-document.lastModified;
+// document.querySelector("#lastModified").textContent =
+// document.lastModified;
 
 
 

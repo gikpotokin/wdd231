@@ -415,3 +415,109 @@ footer{
 
 
 }
+
+
+/* ===========================================
+   HOME PAGE
+=========================================== */
+
+@media only screen and (min-width:768px){
+
+.hero{
+    margin:2rem auto;
+    max-width:1200px;
+}
+
+.hero img{
+    height:420px;
+}
+
+.hero-content{
+    align-items:flex-start;
+    text-align:left;
+    padding:3rem;
+}
+
+.hero-content h1{
+    font-size:3rem;
+    max-width:600px;
+}
+
+.hero-content p{
+    font-size:1.1rem;
+    max-width:550px;
+}
+
+.home-grid{
+    max-width:1200px;
+    margin:0 auto 2rem;
+    grid-template-columns:2fr 1fr;
+    gap:2rem;
+}
+
+#forecast-container{
+    grid-template-columns:repeat(3,1fr);
+}
+
+#spotlight-container{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:2rem;
+}
+
+.spotlight-card{
+    transition:.35s;
+}
+
+.spotlight-card:hover{
+    transform:translateY(-6px);
+}
+
+}
+
+
+/* ===========================================
+   Large Desktop
+=========================================== */
+
+@media only screen and (min-width:1024px){
+
+.hero img{
+    height:520px;
+}
+
+.hero-content h1{
+    font-size:3.6rem;
+}
+
+.hero-content p{
+    font-size:1.2rem;
+}
+
+.card{
+    padding:1.5rem;
+}
+
+.spotlight-card img{
+    width:140px;
+    height:140px;
+}
+
+}
+
+
+/* ===========================================
+   Wide Screens
+=========================================== */
+
+@media only screen and (min-width:1400px){
+
+.hero,
+.home-grid,
+.spotlights{
+    max-width:1400px;
+}
+
+}

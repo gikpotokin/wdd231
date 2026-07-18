@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--
+         Lagos Chamber of Commerce
+         WDD231 Chamber Project
+         Author: Godswill Moses Ikpotokin
+    -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Lagos Chamber of Commerce </title>
+
+    <meta
+        name="description"
+        content="The Lagos Chamber of Commerce Business Directory connects residents, visitors, entrepreneurs, and investors with trusted businesses throughout Lagos State.">
+
+    <meta
+        name="author"
+        content="Godswill Moses Ikpotokin">
+
+    <meta property="og:title"
+          content="Lagos Chamber of Commerce">
+
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:description"
+          content="Business Directory of the Lagos Chamber of Commerce">
+
+    <meta property="og:image"
+          content="https://gikpotokin.github.io/wdd231/chamber/images/logo.png">
+
+    <meta property="og:url"
+          content="https://gikpotokin.github.io/wdd231/chamber/directory.html">
+
+    <link
+        rel="icon"
+        href="images/favicon.ico">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-container">
+
+        <a href="directory.html" class="logo-area">
+
+            <img
+                src="images/logo.png"
+                alt="Lagos Chamber of Commerce Logo">
+
+            <div>
+
+                <p class="site-title">
+                    Lagos Chamber of Commerce
+                </p>
+
+                <span>
+                    Connecting Businesses • Growing Lagos
+                </span>
+
+            </div>
+
+        </a>
+
+        <button
+            id="menuButton"
+            aria-label="Open Navigation">
+
+            ☰
+
+        </button>
+
+        <nav id="navigation">
+
+            <ul>
+
+                <li>
+                    <a href="index.html"
+                    class="active">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="directory.html">
+                        Directory
+                    </a>
+                </li>
+
+                <li>
+                    <a href="join.html">
+                        Join
+                    </a>
+                </li>
+
+                <li>
+                    <a href="discover.html">
+                        Discover
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+<main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+
+        <picture>
+            <source
+                srcset="https://hoptownchronicle.org/wp-content/uploads/2021/02/chamber-of-commerce-building-feature.jpg"
+                media="(min-width:768px)">
+            <img
+                src="https://hoptownchronicle.org/wp-content/uploads/2021/02/chamber-of-commerce-building-feature.jpg"
+                alt="Lagos business district skyline"
+                loading="eager">
+        </picture>
+
+        <div class="hero-content">
+
+            <h1>
+                Lagos Chamber of Commerce
+            </h1>
+
+            <p style="color: antiquewhite;">
+                Empowering businesses, connecting entrepreneurs,
+                and driving economic growth across Lagos State.
+            </p>
+
+            <a href="join.html" class="btn btn-primary">
+                Join the Chamber
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HOME GRID ================= -->
+
+    <section class="home-grid">
+
+        <!-- CURRENT EVENTS -->
+
+        <section class="card events">
+
+            <h2>
+                Current Events
+            </h2>
+
+            <article>
+
+                <h3>
+                    Lagos Business Expo 2026
+                </h3>
+
+                <p>
+                    Join over 300 exhibitors showcasing products,
+                    innovation, and investment opportunities across
+                    Lagos.
+                </p>
+
+            </article>
+
+            <hr>
+
+            <article>
+
+                <h3>
+                    SME Growth Workshop
+                </h3>
+
+                <p>
+                    Learn practical business strategies from
+                    successful entrepreneurs and industry experts.
+                </p>
+
+            </article>
+
+            <hr>
+
+            <article>
+
+                <h3>
+                    Monthly Networking Breakfast
+                </h3>
+
+                <p>
+                    Connect with business owners, investors,
+                    and professionals throughout Lagos.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- WEATHER -->
+
+        <section class="card weather">
+
+            <h2>
+                Weather
+            </h2>
+
+            <div class="current-weather">
+
+                <h3 id="current-temp">
+                    Loading...
+                </h3>
+
+                <p id="weather-description">
+                    Loading weather...
+                </p>
+
+                <img
+                    id="weather-icon"
+                    src=""
+                    alt=""
+                    loading="lazy">
+
+            </div>
+
+            <div class="forecast">
+
+                <h3>
+                    3-Day Forecast
+                </h3>
+
+                <div id="forecast-container">
+
+                    <!-- Filled by home.js -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <!-- ================= SPOTLIGHTS ================= -->
+
+    <section class="spotlights">
+
+        <h2>
+            Business Spotlights
+        </h2>
+
+        <p>
+            Meet some of our Gold and Silver Chamber members.
+        </p>
+
+        <div id="spotlight-container">
+
+            <!-- JavaScript inserts 2-3 spotlight cards here -->
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="footer-container">
+
+        <section>
+
+            <h2>
+                Lagos Chamber of Commerce
+            </h2>
+
+            <p>
+                1 Idowu Taylor Street
+            </p>
+
+            <p>
+                Victoria Island
+            </p>
+
+            <p>
+                Lagos, Nigeria
+            </p>
+
+            <p>
+                info@lagoschamber.org
+            </p>
+
+            <p>
+                +234 (0) 1 462 1000
+            </p>
+
+        </section>
+
+        <div class="social-links">
+
+            <a href="https://facebook.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="Facebook">
+
+                <i class="fab fa-facebook-f"></i>
+
+            </a>
+
+            <a href="https://x.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="Twitter / X">
+
+                <i class="fab fa-x-twitter"></i>
+
+            </a>
+
+            <a href="https://linkedin.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="LinkedIn">
+
+                <i class="fab fa-linkedin-in"></i>
+
+            </a>
+
+            <a href="https://github.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="GitHub">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+        </div>
+
+        <div>
+
+            <p>
+                WDD231 Chamber Project
+            </p>
+
+            <p>
+                Godswill Moses Ikpotokin
+            </p>
+
+            <p>
+                © <span id="year"></span>
+                Lagos Chamber of Commerce
+            </p>
+
+            <p>
+                Last Modification:
+                <span id="lastModified"></span>
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
