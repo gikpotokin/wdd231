@@ -41,19 +41,18 @@ async function getWeather() {
 
 }
 
-
 function displayCurrentWeather(data) {
 
     currentTemp.innerHTML = `${Math.round(data.main.temp)}°C`;
 
-    weatherDesc.textContent =
-        data.weather[0].description;
+    weatherDesc.textContent = data.weather[0].description;
 
     const icon =
         `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 
     weatherIcon.src = icon;
     weatherIcon.alt = data.weather[0].description;
+    weatherIcon.hidden = false;
 
 }
 
@@ -89,7 +88,6 @@ function displayForecast(data) {
 
     forecastContainer.innerHTML = "";
 
-    // select only forecasts at 12:00 each day
 
     const dailyForecasts = data.list.filter(item =>
         item.dt_txt.includes("12:00:00")
