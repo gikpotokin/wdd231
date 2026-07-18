@@ -288,12 +288,6 @@ main h1 {
  */
 
 
-.hero {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 1rem;
-}
 
 .hero picture,
 .hero img {
