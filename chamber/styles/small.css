@@ -433,6 +433,8 @@ button {
     display: flex;
 
     flex-direction: column;
+    background-color: var(--primary-color);
+
 
 }
 
@@ -491,7 +493,7 @@ button {
 
 #menuButton.open {
 
-    color: #b00020;
+    color: #fffeff;
 
 }
 
