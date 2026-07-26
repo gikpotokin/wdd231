@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--
+        Lagos Chamber of Commerce
+        WDD231 Chamber Project
+        Author: Godswill Moses Ikpotokin
+    -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Join the Lagos Chamber of Commerce</title>
+
+    <meta
+        name="description"
+        content="Apply to become a member of the Lagos Chamber of Commerce and connect with businesses, entrepreneurs, and organizations across Lagos.">
+
+    <meta
+        name="author"
+        content="Godswill Moses Ikpotokin">
+
+    <meta
+        property="og:title"
+        content="Join the Lagos Chamber of Commerce">
+
+    <meta
+        property="og:type"
+        content="website">
+
+    <meta
+        property="og:description"
+        content="Apply for membership with the Lagos Chamber of Commerce.">
+
+    <meta
+        property="og:image"
+        content="https://gikpotokin.github.io/wdd231/chamber/images/logo.png">
+
+    <meta
+        property="og:url"
+        content="https://gikpotokin.github.io/wdd231/chamber/join.html">
+
+    <link
+        rel="icon"
+        href="images/favicon.ico">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/join.css">
+
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-container">
+
+        <a href="index.html" class="logo-area">
+
+            <img
+                src="images/logo.png"
+                alt="Lagos Chamber of Commerce Logo">
+
+            <div>
+
+                <p class="site-title">
+                    Lagos Chamber of Commerce
+                </p>
+
+                <span>
+                    Connecting Businesses • Growing Lagos
+                </span>
+
+            </div>
+
+        </a>
+
+        <button
+            id="menuButton"
+            aria-label="Open Navigation">
+
+            ☰
+
+        </button>
+
+        <nav id="navigation">
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="directory.html">
+                        Directory
+                    </a>
+                </li>
+
+                <li>
+                    <a href="join.html"
+                       class="active"
+                       aria-current="page">
+                        Join
+                    </a>
+                </li>
+
+                <li>
+                    <a href="discover.html">
+                        Discover
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="page-title">
+
+        <h1>Join the Lagos Chamber of Commerce</h1>
+
+        <p>
+            Become part of a growing business community and gain access
+            to opportunities that help your organization connect, grow,
+            and succeed.
+        </p>
+
+    </section>
+
+
+    <div class="join-layout">
+
+        <!-- Membership Application Form -->
+
+        <section class="form-section">
+
+            <h2>Membership Application</h2>
+
+            <p>
+                Complete the form below to apply for membership.
+                Fields marked as required must be completed.
+            </p>
+
+            <form
+                action="thankyou.html"
+                method="get"
+                class="membership-form">
+
+                <label for="firstName">
+                    First Name
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        title="Enter your first name"
+                        autocomplete="given-name"
+                        required>
+                </label>
+
+
+                <label for="lastName">
+                    Last Name
+                    <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        title="Enter your last name"
+                        autocomplete="family-name"
+                        required>
+                </label>
+
+
+                <label for="organizationTitle">
+                    Organizational Title
+                    <input
+                        type="text"
+                        id="organizationTitle"
+                        name="organizationTitle"
+                        title="Enter your organizational title using at least seven letters, spaces, or hyphens"
+                        autocomplete="organization-title"
+                        pattern="[A-Za-z\s-]{7,}"
+                        placeholder="Example: Managing Director">
+                </label>
+
+
+                <label for="email">
+                    Email Address
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        title="Enter your email address"
+                        autocomplete="email"
+                        placeholder="example@email.com"
+                        required>
+                </label>
+
+
+                <label for="phone">
+                    Mobile Phone Number
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        title="Enter your mobile phone number"
+                        autocomplete="tel"
+                        required>
+                </label>
+
+
+                <label for="organization">
+                    Business / Organization Name
+                    <input
+                        type="text"
+                        id="organization"
+                        name="organization"
+                        title="Enter your business or organization name"
+                        autocomplete="organization"
+                        required>
+                </label>
+
+
+                <fieldset>
+
+                    <legend>Membership Level</legend>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="membership"
+                            value="np"
+                            required>
+                        NP Membership - No Fee
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="membership"
+                            value="bronze">
+                        Bronze Membership
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="membership"
+                            value="silver">
+                        Silver Membership
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="membership"
+                            value="gold">
+                        Gold Membership
+                    </label>
+
+                </fieldset>
+
+
+                <label for="description">
+                    Business / Organization Description
+                    <textarea
+                        id="description"
+                        name="description"
+                        title="Describe your business or organization"
+                        rows="6"></textarea>
+                </label>
+
+
+                <input
+                    type="hidden"
+                    id="timestamp"
+                    name="timestamp">
+
+
+                <input
+                    type="submit"
+                    value="Submit Membership Application"
+                    class="submit-button">
+
+            </form>
+
+        </section>
+
+
+
+        <aside class="membership-levels">
+
+            <h2>Membership Levels</h2>
+
+            <div class="membership-cards">
+
+
+                <article class="membership-card np-card">
+
+                    <h3>NP Membership</h3>
+
+                    <p>No membership fee for nonprofit organizations.</p>
+
+                    <button
+                        type="button"
+                        class="modal-link"
+                        data-modal="npModal">
+                        View Benefits
+                    </button>
+
+                </article>
+
+
+                <article class="membership-card bronze-card">
+
+                    <h3>Bronze Membership</h3>
+
+                    <p>Affordable benefits for growing businesses.</p>
+
+                    <button
+                        type="button"
+                        class="modal-link"
+                        data-modal="bronzeModal">
+                        View Benefits
+                    </button>
+
+                </article>
+
+
+                <article class="membership-card silver-card">
+
+                    <h3>Silver Membership</h3>
+
+                    <p>Enhanced visibility and business opportunities.</p>
+
+                    <button
+                        type="button"
+                        class="modal-link"
+                        data-modal="silverModal">
+                        View Benefits
+                    </button>
+
+                </article>
+
+
+                <article class="membership-card gold-card">
+
+                    <h3>Gold Membership</h3>
+
+                    <p>Premium benefits for established organizations.</p>
+
+                    <button
+                        type="button"
+                        class="modal-link"
+                        data-modal="goldModal">
+                        View Benefits
+                    </button>
+
+                </article>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+</main>
+
+
+
+<dialog id="npModal">
+
+    <button
+        class="close-modal"
+        aria-label="Close NP Membership benefits">
+        &times;
+    </button>
+
+    <h2>NP Membership Benefits</h2>
+
+    <p>
+        Designed for nonprofit organizations that want to connect
+        with the Lagos business community.
+    </p>
+
+    <ul>
+        <li>No membership fee.</li>
+        <li>Access to selected chamber events.</li>
+        <li>Networking opportunities.</li>
+        <li>Community development opportunities.</li>
+    </ul>
+
+</dialog>
+
+
+
+<dialog id="bronzeModal">
+
+    <button
+        class="close-modal"
+        aria-label="Close Bronze Membership benefits">
+        &times;
+    </button>
+
+    <h2>Bronze Membership Benefits</h2>
+
+    <p>
+        A practical membership option for small and growing businesses.
+    </p>
+
+    <ul>
+        <li>Access to networking events.</li>
+        <li>Business training opportunities.</li>
+        <li>Member directory listing.</li>
+        <li>Discounts on selected chamber events.</li>
+    </ul>
+
+</dialog>
+
+
+
+<dialog id="silverModal">
+
+    <button
+        class="close-modal"
+        aria-label="Close Silver Membership benefits">
+        &times;
+    </button>
+
+    <h2>Silver Membership Benefits</h2>
+
+    <p>
+        Increased visibility and opportunities for businesses
+        seeking stronger connections.
+    </p>
+
+    <ul>
+        <li>All Bronze Membership benefits.</li>
+        <li>Priority networking opportunities.</li>
+        <li>Business training and workshops.</li>
+        <li>Featured business promotion opportunities.</li>
+        <li>Discounts on selected chamber events.</li>
+    </ul>
+
+</dialog>
+
+
+
+<dialog id="goldModal">
+
+    <button
+        class="close-modal"
+        aria-label="Close Gold Membership benefits">
+        &times;
+    </button>
+
+    <h2>Gold Membership Benefits</h2>
+
+    <p>
+        Our premium membership level provides the highest level
+        of visibility, networking, and promotional opportunities.
+    </p>
+
+    <ul>
+        <li>All Silver Membership benefits.</li>
+        <li>Premium business directory placement.</li>
+        <li>Home page spotlight opportunities.</li>
+        <li>Premium advertising opportunities.</li>
+        <li>Priority access to special events.</li>
+        <li>Exclusive leadership and networking opportunities.</li>
+    </ul>
+
+</dialog>
+
+
+<footer>
+
+    <div class="footer-container">
+
+        <section>
+
+            <h2>
+                Lagos Chamber of Commerce
+            </h2>
+
+            <p>
+                1 Idowu Taylor Street
+            </p>
+
+            <p>
+                Victoria Island
+            </p>
+
+            <p>
+                Lagos, Nigeria
+            </p>
+
+            <p>
+                info@lagoschamber.org
+            </p>
+
+            <p>
+                +234 (0) 1 462 1000
+            </p>
+
+        </section>
+
+        <div class="social-links">
+
+            <a href="https://facebook.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="Facebook">
+
+                <i class="fab fa-facebook-f"></i>
+
+            </a>
+
+            <a href="https://x.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="Twitter / X">
+
+                <i class="fab fa-x-twitter"></i>
+
+            </a>
+
+            <a href="https://linkedin.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="LinkedIn">
+
+                <i class="fab fa-linkedin-in"></i>
+
+            </a>
+
+            <a href="https://github.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="GitHub">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+        </div>
+
+        <div>
+
+            <p>
+                WDD231 Chamber Project
+            </p>
+
+            <p>
+                Godswill Moses Ikpotokin
+            </p>
+
+            <p>
+                © <span id="year"></span>
+                Lagos Chamber of Commerce
+            </p>
+
+            <p>
+                Last Modification:
+                <span id="lastModified"></span>
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
