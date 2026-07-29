@@ -1,0 +1,280 @@
+:root {
+
+    --primary: #050538;
+    --secondary: #16c4e8;
+    --light: #ffffff;
+    --gray: #eef3f8;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background: var(--gray);
+    color: #222;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.7;
+
+}
+
+header {
+
+    background: var(--primary);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 2rem;
+
+}
+
+header img {
+
+    width: 110px;
+
+}
+
+header h1 {
+
+    font-family: "Poppins", sans-serif;
+    color: var(--secondary);
+    font-size: 2.2rem;
+
+}
+
+header p {
+
+    color: #ddd;
+
+}
+
+main {
+
+    width: min(1100px, 90%);
+    margin: 2rem auto;
+
+}
+
+.card {
+
+    background: white;
+
+    margin-bottom: 2rem;
+
+    padding: 2rem;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 18px rgba(0,0,0,.08);
+
+}
+
+.card h2 {
+
+    color: var(--secondary);
+
+    font-family: "Poppins", sans-serif;
+
+    margin-bottom: 1rem;
+
+    border-bottom: 3px solid var(--secondary);
+
+    display: inline-block;
+
+    padding-bottom: .3rem;
+
+}
+
+ul {
+
+    margin-left: 1.5rem;
+
+}
+
+.colors {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+
+    gap: 1.5rem;
+
+    margin-top: 1.5rem;
+
+}
+
+.color {
+
+    text-align: center;
+
+}
+
+.box {
+
+    height: 100px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ccc;
+
+    margin-bottom: 1rem;
+
+}
+
+.navy {
+
+    background: #050538;
+
+}
+
+.cyan {
+
+    background: #16c4e8;
+
+}
+
+.white {
+
+    background: white;
+
+}
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+th {
+
+    background: var(--primary);
+
+    color: white;
+
+}
+
+th,
+td {
+
+    padding: 1rem;
+
+    border: 1px solid #ddd;
+
+}
+
+.poppins {
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+.roboto {
+
+    font-family: "Roboto", sans-serif;
+
+}
+
+.code {
+
+    font-family: "Fira Code", monospace;
+
+}
+.wireframes {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+
+}
+
+.wireframe {
+
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.wireframe h3 {
+
+    font-family: "Poppins", sans-serif;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+
+}
+
+.wireframe img {
+
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: block;
+
+}
+
+.wireframe figcaption {
+
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+
+}
+
+.note {
+
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #eef9fc;
+    border-left: 5px solid var(--secondary);
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+
+    .wireframes {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+footer {
+
+    background: var(--primary);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1.5rem;
+
+}
+
+@media (max-width:700px) {
+
+    header {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+}
