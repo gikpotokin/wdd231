@@ -502,6 +502,8 @@ button {
 .page-title h2 {
 
     margin-bottom: .5rem;
+        color: var(--primary-color);
+
 
 }
 
@@ -511,7 +513,7 @@ button {
 
     margin: auto;
 
-    color: white;
+    color: var(--primary-color);
 
 }
 
@@ -982,7 +984,7 @@ footer {
 
 }
 
-.footer-container h3 {
+.footer-container h2 {
 
     color: #ffffff;
 
@@ -1314,7 +1316,7 @@ footer #lastModified {
 
 .empty-directory p {
 
-    color: var(--text-light);
+    color: var(--primary-color-dark);
 
 }
 
