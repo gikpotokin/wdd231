@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "title": "Python Fundamentals",
+        "language": "Python",
+        "level": "Beginner",
+        "duration": "8 Weeks",
+        "description": "Learn variables, data types, conditions, loops, functions, and the fundamentals of Python programming.",
+        "category": "Programming"
+    },
+    {
+        "id": 2,
+        "title": "JavaScript Essentials",
+        "language": "JavaScript",
+        "level": "Beginner",
+        "duration": "10 Weeks",
+        "description": "Learn the fundamentals of JavaScript and use it to create interactive and dynamic web experiences.",
+        "category": "Web Development"
+    },
+    {
+        "id": 3,
+        "title": "HTML and CSS Foundations",
+        "language": "HTML & CSS",
+        "level": "Beginner",
+        "duration": "6 Weeks",
+        "description": "Build a strong foundation in semantic HTML, CSS layouts, responsive design, and modern web development.",
+        "category": "Web Development"
+    },
+    {
+        "id": 4,
+        "title": "C++ Programming",
+        "language": "C++",
+        "level": "Intermediate",
+        "duration": "10 Weeks",
+        "description": "Explore object-oriented programming, memory management, functions, classes, and modern C++ concepts.",
+        "category": "Programming"
+    },
+    {
+        "id": 5,
+        "title": "React Development",
+        "language": "React",
+        "level": "Intermediate",
+        "duration": "8 Weeks",
+        "description": "Learn how to build modern component-based web interfaces using React and reusable UI patterns.",
+        "category": "Web Development"
+    },
+    {
+        "id": 6,
+        "title": "Django Web Development",
+        "language": "Django",
+        "level": "Intermediate",
+        "duration": "10 Weeks",
+        "description": "Build powerful web applications with Django, Python, databases, authentication, and REST APIs.",
+        "category": "Backend Development"
+    },
+    {
+        "id": 7,
+        "title": "Git and GitHub",
+        "language": "Git",
+        "level": "Beginner",
+        "duration": "4 Weeks",
+        "description": "Learn version control, Git workflows, branches, commits, pull requests, and collaborative development.",
+        "category": "Developer Tools"
+    },
+    {
+        "id": 8,
+        "title": "TypeScript Fundamentals",
+        "language": "TypeScript",
+        "level": "Intermediate",
+        "duration": "6 Weeks",
+        "description": "Learn how TypeScript adds strong typing and modern development features to JavaScript projects.",
+        "category": "Web Development"
+    },
+    {
+        "id": 9,
+        "title": "Node.js Backend Development",
+        "language": "Node.js",
+        "level": "Intermediate",
+        "duration": "8 Weeks",
+        "description": "Create server-side applications and APIs using Node.js and modern JavaScript development practices.",
+        "category": "Backend Development"
+    },
+    {
+        "id": 10,
+        "title": "SQL and Database Fundamentals",
+        "language": "SQL",
+        "level": "Beginner",
+        "duration": "6 Weeks",
+        "description": "Learn relational databases, SQL queries, data relationships, joins, and database management concepts.",
+        "category": "Database"
+    },
+    {
+        "id": 11,
+        "title": "REST API Development",
+        "language": "REST API",
+        "level": "Intermediate",
+        "duration": "6 Weeks",
+        "description": "Understand REST architecture and learn how to design, consume, and integrate APIs into applications.",
+        "category": "Backend Development"
+    },
+    {
+        "id": 12,
+        "title": "Java Programming",
+        "language": "Java",
+        "level": "Intermediate",
+        "duration": "12 Weeks",
+        "description": "Learn object-oriented programming, classes, inheritance, interfaces, and application development with Java.",
+        "category": "Programming"
+    },
+    {
+        "id": 13,
+        "title": "Mobile App Development",
+        "language": "React Native",
+        "level": "Intermediate",
+        "duration": "10 Weeks",
+        "description": "Learn how to create cross-platform mobile applications using React Native and modern development tools.",
+        "category": "Mobile Development"
+    },
+    {
+        "id": 14,
+        "title": "Cybersecurity Fundamentals",
+        "language": "Cybersecurity",
+        "level": "Beginner",
+        "duration": "8 Weeks",
+        "description": "Explore cybersecurity principles, common threats, authentication, secure development, and digital safety.",
+        "category": "Cybersecurity"
+    },
+    {
+        "id": 15,
+        "title": "Algorithms and Problem Solving",
+        "language": "Multiple",
+        "level": "Advanced",
+        "duration": "10 Weeks",
+        "description": "Develop problem-solving skills by studying algorithms, data structures, complexity, and optimization.",
+        "category": "Computer Science"
+    },
+    {
+        "id": 16,
+        "title": "Cloud Computing Essentials",
+        "language": "Cloud",
+        "level": "Intermediate",
+        "duration": "8 Weeks",
+        "description": "Learn cloud computing concepts, deployment models, infrastructure, services, and modern cloud platforms.",
+        "category": "Cloud Computing"
+    },
+    {
+        "id": 17,
+        "title": "Artificial Intelligence Foundations",
+        "language": "AI",
+        "level": "Intermediate",
+        "duration": "10 Weeks",
+        "description": "Explore artificial intelligence concepts, machine learning fundamentals, data, models, and intelligent systems.",
+        "category": "Artificial Intelligence"
+    },
+    {
+        "id": 18,
+        "title": "Web Accessibility",
+        "language": "HTML & CSS",
+        "level": "Beginner",
+        "duration": "4 Weeks",
+        "description": "Learn how to create inclusive websites using semantic HTML, accessible interfaces, keyboard navigation, and good design practices.",
+        "category": "Web Development"
+    }
+]

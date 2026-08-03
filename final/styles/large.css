@@ -1,0 +1,156 @@
+/* =========================================
+   CODEHOUSE
+   LARGE SCREEN STYLES
+========================================= */
+
+@media screen and (min-width: 768px) {
+
+    /* ================= HEADER ================= */
+
+    .header-container {
+        min-height: 80px;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .primary-navigation {
+        position: static;
+
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+
+        padding: 0;
+        border: 0;
+    }
+
+    .primary-navigation a {
+        padding: 0.5rem 0.8rem;
+
+        position: relative;
+    }
+
+    .primary-navigation a.active::after {
+        content: "";
+
+        position: absolute;
+        left: 0.8rem;
+        right: 0.8rem;
+        bottom: 0;
+
+        height: 2px;
+
+        background: var(--cyan);
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero-section {
+        padding: 6rem 2rem;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .hero-actions {
+        flex-direction: row;
+    }
+
+    .hero-visual {
+        min-height: 400px;
+    }
+
+
+    /* ================= GENERAL ================= */
+
+    .section {
+        padding: 6rem 2rem;
+    }
+
+    .section-heading h2 {
+        font-size: 2.5rem;
+    }
+
+
+    /* ================= COURSES ================= */
+
+    .course-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .course-card {
+        padding: 1.5rem 1rem;
+    }
+
+
+    /* ================= AI ================= */
+
+    .assistant-grid {
+        grid-template-columns: 1.5fr 1fr;
+        align-items: stretch;
+    }
+
+    .assistant-card,
+    .topics-card {
+        padding: 2rem;
+    }
+
+
+    /* ================= CHALLENGES ================= */
+
+    .challenge-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    /* ================= RESOURCES ================= */
+
+    .resource-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    /* ================= CTA ================= */
+
+    .cta-section {
+        padding: 6rem 2rem;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .footer-container {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        padding: 4rem 0;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media screen and (min-width: 1100px) {
+
+    .primary-navigation {
+        gap: 0.7rem;
+    }
+
+    .primary-navigation a {
+        font-size: 0.8rem;
+    }
+
+    .hero-content h1 {
+        font-size: 4.5rem;
+    }
+
+}

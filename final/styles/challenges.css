@@ -1,0 +1,174 @@
+/* =========================================
+   CHALLENGES PAGE
+========================================= */
+
+.challenge-page-section {
+    width: min(100% - 2rem, 1200px);
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.challenge-page-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.challenge-level-card {
+    padding: 2rem;
+
+    border: 1px solid #E2E6EC;
+    border-radius: 12px;
+
+    background: #FFFFFF;
+
+    transition: 0.3s ease;
+}
+
+.challenge-level-card:hover {
+    transform: translateY(-5px);
+    border-color: #16C4E8;
+    box-shadow: 0 15px 35px rgba(5, 5, 56, 0.08);
+}
+
+.challenge-level-card .challenge-icon {
+    color: #16C4E8;
+    font-family: "Fira Code", monospace;
+    font-size: 2rem;
+}
+
+.challenge-badge {
+    display: inline-block;
+
+    margin: 1rem 0;
+
+    padding: 0.3rem 0.7rem;
+
+    background: #F0FBFD;
+    color: #050538;
+
+    border-radius: 20px;
+
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.challenge-level-card h2 {
+    color: #050538;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+}
+
+.challenge-level-card p {
+    margin: 0.8rem 0;
+
+    color: #687080;
+}
+
+.challenge-level-card ul {
+    margin: 1rem 0;
+
+    padding-left: 1.2rem;
+
+    color: #687080;
+    font-size: 0.85rem;
+}
+
+.challenge-level-card li {
+    margin-bottom: 0.4rem;
+}
+
+.challenge-level-card > a {
+    color: #16C4E8;
+    font-weight: 600;
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+.challenge-form-section {
+    padding: 4rem 1rem;
+
+    background: #F7F9FC;
+}
+
+.form-container {
+    width: min(100%, 700px);
+    margin: 0 auto;
+}
+
+.form-heading {
+    margin-bottom: 2rem;
+}
+
+.form-heading h2 {
+    margin: 0.5rem 0;
+
+    color: #050538;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-heading p:last-child {
+    color: #687080;
+}
+
+.challenge-form {
+    padding: 2rem;
+
+    background: #FFFFFF;
+    border: 1px solid #E2E6EC;
+    border-radius: 12px;
+}
+
+.form-group {
+    margin-bottom: 1.3rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+
+    color: #050538;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    padding: 0.8rem;
+
+    border: 1px solid #D8DDE5;
+    border-radius: 6px;
+
+    background: #FFFFFF;
+
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #16C4E8;
+    outline: 2px solid rgba(22, 196, 232, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+
+    .challenge-page-section {
+        padding: 5rem 0;
+    }
+
+    .challenge-page-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .challenge-form-section {
+        padding: 6rem 2rem;
+    }
+
+}

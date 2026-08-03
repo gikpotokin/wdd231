@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>CodeHouse | Learn Programming with AI</title>
+
+    <meta
+        name="description"
+        content="CodeHouse is an AI-powered learning platform that helps students and aspiring developers learn programming, practice coding challenges, and build software development skills."
+    >
+
+    <meta
+        name="author"
+        content="Godswill Moses Ikpotokin"
+    >
+
+    <meta
+        name="theme-color"
+        content="#050538"
+    >
+
+    <!-- Open Graph -->
+    <meta
+        property="og:title"
+        content="CodeHouse | Learn Programming with AI"
+    >
+
+    <meta
+        property="og:description"
+        content="Learn programming, practice coding challenges, explore resources, and improve your software development skills with CodeHouse."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:url"
+        content="https://www.codehouse.cloud/"
+    >
+
+    <meta
+        property="og:image"
+        content="https://www.codehouse.cloud/images/codehouse-social.jpg"
+    >
+
+    <!-- Favicon -->
+    <link
+        rel="icon"
+        href="images/favicon.svg"
+        type="image/svg+xml"
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JavaScript -->
+    <script
+        type="module"
+        src="scripts/main.js"
+    ></script>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <a
+                class="logo"
+                href="index.html"
+                aria-label="CodeHouse Home"
+            >
+                <span class="logo-icon" aria-hidden="true">
+                    &lt;/&gt;
+                </span>
+
+                <span>CODEHOUSE</span>
+            </a>
+
+            <button
+                class="menu-button"
+                id="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav
+                class="primary-navigation"
+                id="primary-navigation"
+                aria-label="Primary navigation"
+            >
+                <a
+                    href="index.html"
+                    class="active"
+                    aria-current="page"
+                >
+                    Home
+                </a>
+
+                <a href="courses.html">
+                    Courses
+                </a>
+
+                <a href="challenges.html">
+                    Challenges
+                </a>
+
+                <a href="resources.html">
+                    Resources
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero-section">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        AI-POWERED LEARNING
+                    </p>
+
+                    <h1>
+                        Learn Programming
+                        <span>with AI</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Build practical software development skills through
+                        interactive courses, coding challenges, programming
+                        resources, and intelligent AI-powered assistance.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a
+                            class="button button-primary"
+                            href="courses.html"
+                        >
+                            Start Learning
+                        </a>
+
+                        <a
+                            class="button button-secondary"
+                            href="courses.html"
+                        >
+                            Explore Courses
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="code-window">
+
+                        <div class="window-header">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="code-content">
+
+                            <p>
+                                <span class="code-purple">const</span>
+                                learner =
+                                <span class="code-green">
+                                    "developer"
+                                </span>;
+                            </p>
+
+                            <p>
+                                <span class="code-purple">function</span>
+                                <span class="code-blue">
+                                    learnWithAI
+                                </span>() {
+                            </p>
+
+                            <p class="code-indent">
+                                buildSkills();
+                            </p>
+
+                            <p class="code-indent">
+                                solveProblems();
+                            </p>
+
+                            <p class="code-indent">
+                                <span class="code-purple">
+                                    return
+                                </span>
+                                success;
+                            </p>
+
+                            <p>
+                                }
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="ai-floating-card">
+
+                        <span class="ai-icon">
+                            ✦
+                        </span>
+
+                        <div>
+                            <strong>
+                                AI Assistant
+                            </strong>
+
+                            <small>
+                                Ready to help you code
+                            </small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED COURSES ================= -->
+        <section class="section featured-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    START LEARNING
+                </p>
+
+                <h2>
+                    Featured Courses
+                </h2>
+
+                <p>
+                    Build your programming foundation with practical,
+                    beginner-friendly learning paths.
+                </p>
+
+            </div>
+
+
+            <div
+                class="course-grid"
+                id="featured-courses"
+            >
+
+                <!-- JavaScript dynamically inserts courses here -->
+
+            </div>
+
+
+            <div class="section-action">
+
+                <a
+                    href="courses.html"
+                    class="text-link"
+                >
+                    View All Courses
+                    <span aria-hidden="true">→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= AI ASSISTANT ================= -->
+        <section class="section assistant-section">
+
+            <div class="assistant-grid">
+
+                <div class="assistant-card">
+
+                    <div class="assistant-heading">
+
+                        <div class="assistant-icon">
+                            ✦
+                        </div>
+
+                        <div>
+                            <p class="section-label">
+                                YOUR CODING COMPANION
+                            </p>
+
+                            <h2>
+                                AI Coding Assistant
+                            </h2>
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="chat-window"
+                        id="chat-window"
+                        aria-live="polite"
+                    >
+
+                        <div class="chat-message ai-message">
+
+                            <div class="chat-avatar">
+                                AI
+                            </div>
+
+                            <p>
+                                Hello! How can I help you with your
+                                coding today?
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <form
+                        class="ai-form"
+                        id="ai-form"
+                    >
+
+                        <label
+                            for="ai-question"
+                            class="sr-only"
+                        >
+                            Ask a coding question
+                        </label>
+
+                        <input
+                            type="text"
+                            id="ai-question"
+                            name="question"
+                            placeholder="Ask a coding question..."
+                            autocomplete="off"
+                            required
+                        >
+
+                        <button
+                            type="submit"
+                            class="button button-primary"
+                        >
+                            Ask AI
+                        </button>
+
+                    </form>
+
+                    <p
+                        class="ai-note"
+                        id="ai-note"
+                    >
+                        This demo provides sample responses.
+                        A live AI model can be connected later.
+                    </p>
+
+                </div>
+
+
+                <div class="topics-card">
+
+                    <p class="section-label">
+                        EXPLORE
+                    </p>
+
+                    <h2>
+                        Popular Topics
+                    </h2>
+
+                    <p>
+                        Explore essential technologies and concepts
+                        that developers use to build modern software.
+                    </p>
+
+                    <div class="topic-list">
+
+                        <a href="courses.html">
+                            Python
+                        </a>
+
+                        <a href="courses.html">
+                            JavaScript
+                        </a>
+
+                        <a href="courses.html">
+                            React
+                        </a>
+
+                        <a href="courses.html">
+                            Django
+                        </a>
+
+                        <a href="courses.html">
+                            Git & GitHub
+                        </a>
+
+                        <a href="courses.html">
+                            Debugging
+                        </a>
+
+                        <a href="courses.html">
+                            APIs
+                        </a>
+
+                        <a href="courses.html">
+                            Databases
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CODING CHALLENGES ================= -->
+        <section class="section challenges-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    PRACTICE YOUR SKILLS
+                </p>
+
+                <h2>
+                    Coding Challenges
+                </h2>
+
+                <p>
+                    Put your knowledge into practice and improve your
+                    problem-solving skills.
+                </p>
+
+            </div>
+
+
+            <div class="challenge-grid">
+
+                <article class="challenge-card">
+
+                    <div class="challenge-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <span class="challenge-level beginner">
+                        Beginner
+                    </span>
+
+                    <h3>
+                        Build Your Foundation
+                    </h3>
+
+                    <p>
+                        Practice variables, data types, conditions,
+                        loops, and basic programming concepts.
+                    </p>
+
+                    <a href="challenges.html">
+                        Start Challenge →
+                    </a>
+
+                </article>
+
+
+                <article class="challenge-card">
+
+                    <div class="challenge-icon">
+                        { }
+                    </div>
+
+                    <span class="challenge-level intermediate">
+                        Intermediate
+                    </span>
+
+                    <h3>
+                        Solve Real Problems
+                    </h3>
+
+                    <p>
+                        Work with functions, arrays, objects, APIs,
+                        and practical programming problems.
+                    </p>
+
+                    <a href="challenges.html">
+                        Start Challenge →
+                    </a>
+
+                </article>
+
+
+                <article class="challenge-card">
+
+                    <div class="challenge-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <span class="challenge-level advanced">
+                        Advanced
+                    </span>
+
+                    <h3>
+                        Master Your Skills
+                    </h3>
+
+                    <p>
+                        Tackle complex algorithms, system design,
+                        architecture, and advanced development tasks.
+                    </p>
+
+                    <a href="challenges.html">
+                        Start Challenge →
+                    </a>
+
+                </article>
+
+            </div>
+
+
+            <div class="section-action">
+
+                <a
+                    href="challenges.html"
+                    class="text-link"
+                >
+                    View All Challenges
+                    <span aria-hidden="true">→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESOURCES ================= -->
+        <section class="section resources-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    KEEP LEARNING
+                </p>
+
+                <h2>
+                    Learning Resources
+                </h2>
+
+                <p>
+                    Access resources that help you understand concepts,
+                    practice skills, and continue learning.
+                </p>
+
+            </div>
+
+
+            <div class="resource-grid">
+
+                <a
+                    href="resources.html"
+                    class="resource-card"
+                >
+
+                    <div class="resource-icon">
+                        📖
+                    </div>
+
+                    <h3>
+                        Tutorials
+                    </h3>
+
+                    <p>
+                        Step-by-step guides for learning programming.
+                    </p>
+
+                    <span>
+                        Browse Tutorials →
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="resources.html"
+                    class="resource-card"
+                >
+
+                    <div class="resource-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>
+                        Documentation
+                    </h3>
+
+                    <p>
+                        Explore technical documentation and references.
+                    </p>
+
+                    <span>
+                        View Documentation →
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="resources.html"
+                    class="resource-card"
+                >
+
+                    <div class="resource-icon">
+                        ▶
+                    </div>
+
+                    <h3>
+                        Videos
+                    </h3>
+
+                    <p>
+                        Learn through practical programming tutorials.
+                    </p>
+
+                    <span>
+                        Watch Videos →
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="resources.html"
+                    class="resource-card"
+                >
+
+                    <div class="resource-icon">
+                        ✎
+                    </div>
+
+                    <h3>
+                        Blog
+                    </h3>
+
+                    <p>
+                        Read insights about programming and technology.
+                    </p>
+
+                    <span>
+                        Read the Blog →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TESTIMONIALS ================= -->
+        <section class="section testimonials-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    LEARNER EXPERIENCES
+                </p>
+
+                <h2>
+                    Student Testimonials
+                </h2>
+
+            </div>
+
+
+            <div class="testimonial-card">
+
+                <div class="testimonial-avatar">
+                    A
+                </div>
+
+                <div class="stars" aria-label="5 out of 5 stars">
+                    ★★★★★
+                </div>
+
+                <blockquote>
+                    "CodeHouse gives learners a practical way to
+                    understand programming concepts and develop the
+                    confidence to build real projects."
+                </blockquote>
+
+                <p class="testimonial-name">
+                    Alex Johnson
+                </p>
+
+                <p class="testimonial-role">
+                    Software Development Student
+                </p>
+
+            </div>
+
+            <div
+                class="testimonial-dots"
+                aria-hidden="true"
+            >
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+        <section class="cta-section">
+
+            <div class="cta-content">
+
+                <p class="section-label">
+                    START TODAY
+                </p>
+
+                <h2>
+                    Ready to Start Your Coding Journey?
+                </h2>
+
+                <p>
+                    Learn new skills, practice your knowledge,
+                    and build the future with CodeHouse.
+                </p>
+
+                <a
+                    href="courses.html"
+                    class="button button-primary"
+                >
+                    Start Learning Today
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a
+                    class="logo"
+                    href="index.html"
+                >
+                    <span class="logo-icon">
+                        &lt;/&gt;
+                    </span>
+
+                    <span>
+                        CODEHOUSE
+                    </span>
+                </a>
+
+                <p>
+                    Your home for learning and building with code.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="courses.html">
+                    Courses
+                </a>
+
+                <a href="challenges.html">
+                    Challenges
+                </a>
+
+                <a href="resources.html">
+                    Resources
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Support
+                </h3>
+
+                <a href="contact.html">
+                    Help Center
+                </a>
+
+                <a href="contact.html">
+                    FAQ
+                </a>
+
+                <a href="contact.html">
+                    Contact Us
+                </a>
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Connect With Us
+                </h3>
+
+                <div class="social-links">
+
+                    <a
+                        href="#"
+                        aria-label="Facebook"
+                    >
+                        F
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="LinkedIn"
+                    >
+                        in
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="YouTube"
+                    >
+                        ▶
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="GitHub"
+                    >
+                        GH
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 CodeHouse. All rights reserved.
+            </p>
+
+            <div>
+
+                <a href="attributions.html">
+                    Attributions
+                </a>
+
+                <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Video Demonstration
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

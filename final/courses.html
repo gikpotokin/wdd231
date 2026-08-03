@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        CodeHouse Courses | Learn Programming with AI
+    </title>
+
+    <meta
+        name="description"
+        content="Explore CodeHouse programming courses in Python, JavaScript, C++, React, Django, databases, cybersecurity, artificial intelligence, and more."
+    >
+
+    <meta
+        name="author"
+        content="Godswill Moses Ikpotokin"
+    >
+
+    <meta
+        name="theme-color"
+        content="#050538"
+    >
+
+
+    <!-- ================= OPEN GRAPH ================= -->
+
+    <meta
+        property="og:title"
+        content="CodeHouse Courses | Learn Programming with AI"
+    >
+
+    <meta
+        property="og:description"
+        content="Explore programming and software development courses designed to help you build practical technology skills with CodeHouse."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:url"
+        content="https://www.codehouse.cloud/courses.html"
+    >
+
+    <meta
+        property="og:image"
+        content="https://www.codehouse.cloud/images/codehouse-social.jpg"
+    >
+
+
+    <!-- ================= FAVICON ================= -->
+
+    <link
+        rel="icon"
+        href="images/favicon.svg"
+        type="image/svg+xml"
+    >
+
+
+    <!-- ================= GOOGLE FONTS ================= -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- ================= CSS ================= -->
+
+    <link
+        rel="stylesheet"
+        href="styles/small.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles/large.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles/courses.css"
+    >
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script
+        type="module"
+        src="scripts/courses.js"
+    ></script>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="site-header">
+
+        <div class="header-container">
+
+
+            <!-- LOGO -->
+
+            <a
+                class="logo"
+                href="index.html"
+                aria-label="CodeHouse Home"
+            >
+
+                <span class="logo-icon">
+                    &lt;/&gt;
+                </span>
+
+                <span>
+                    CODEHOUSE
+                </span>
+
+            </a>
+
+
+            <!-- MOBILE MENU BUTTON -->
+
+            <button
+                class="menu-button"
+                id="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+            <!-- NAVIGATION -->
+
+            <nav
+                class="primary-navigation"
+                id="primary-navigation"
+                aria-label="Primary navigation"
+            >
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a
+                    href="courses.html"
+                    class="active"
+                    aria-current="page"
+                >
+                    Courses
+                </a>
+
+                <a href="challenges.html">
+                    Challenges
+                </a>
+
+                <a href="resources.html">
+                    Resources
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+
+        <!-- ================= PAGE HERO ================= -->
+
+        <section class="page-hero">
+
+            <div class="page-hero-content">
+
+                <p class="section-label">
+                    CODEHOUSE LEARNING
+                </p>
+
+                <h1>
+                    Programming Courses
+                </h1>
+
+                <p>
+                    Learn programming, software development, and
+                    technology skills through practical courses
+                    designed for your learning journey.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= COURSE SEARCH AND FILTER ================= -->
+
+        <section
+            class="course-controls-section"
+            aria-labelledby="course-controls-title"
+        >
+
+            <div class="course-controls-container">
+
+                <h2
+                    id="course-controls-title"
+                    class="visually-hidden"
+                >
+                    Search and Filter Courses
+                </h2>
+
+
+                <!-- SEARCH -->
+
+                <div class="course-search">
+
+                    <label for="course-search">
+                        Search Courses
+                    </label>
+
+                    <input
+                        type="search"
+                        id="course-search"
+                        name="course-search"
+                        placeholder="Search by course, language, or category..."
+                        autocomplete="off"
+                    >
+
+                </div>
+
+
+                <!-- LEVEL FILTER -->
+
+                <div class="course-filter">
+
+                    <label for="level-filter">
+                        Filter by Level
+                    </label>
+
+                    <select
+                        id="level-filter"
+                        name="level-filter"
+                    >
+
+                        <option value="all">
+                            All Levels
+                        </option>
+
+                        <option value="Beginner">
+                            Beginner
+                        </option>
+
+                        <option value="Intermediate">
+                            Intermediate
+                        </option>
+
+                        <option value="Advanced">
+                            Advanced
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= COURSES ================= -->
+
+        <section
+            class="courses-section"
+            aria-labelledby="courses-title"
+        >
+
+            <div class="courses-heading">
+
+                <div>
+
+                    <p class="section-label">
+                        EXPLORE AND LEARN
+                    </p>
+
+                    <h2 id="courses-title">
+                        Available Courses
+                    </h2>
+
+                </div>
+
+
+                <!-- JavaScript updates this -->
+
+                <p
+                    id="course-count"
+                    aria-live="polite"
+                >
+                    Loading courses...
+                </p>
+
+            </div>
+
+
+            <!-- JavaScript dynamically inserts
+                 the 15+ courses here -->
+
+            <div
+                id="course-container"
+                class="course-list"
+                aria-live="polite"
+            >
+
+                <p class="loading-message">
+                    Loading CodeHouse courses...
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= COURSE MODAL ================= -->
+
+        <dialog
+            id="course-modal"
+            class="course-modal"
+            aria-labelledby="modal-title"
+        >
+
+            <div class="modal-content">
+
+
+                <!-- CLOSE BUTTON -->
+
+                <button
+                    id="modal-close"
+                    class="modal-close"
+                    type="button"
+                    aria-label="Close course details"
+                >
+                    ×
+                </button>
+
+
+                <!-- COURSE CATEGORY -->
+
+                <p
+                    class="section-label"
+                    id="modal-category"
+                >
+                    COURSE
+                </p>
+
+
+                <!-- COURSE TITLE -->
+
+                <h2 id="modal-title">
+                    Course Details
+                </h2>
+
+
+                <!-- COURSE INFORMATION -->
+
+                <div
+                    id="modal-details"
+                    class="modal-details"
+                >
+                </div>
+
+
+                <!-- LOCAL STORAGE BUTTON -->
+
+                <button
+                    id="save-course"
+                    class="button button-primary"
+                    type="button"
+                >
+                    Save Course
+                </button>
+
+            </div>
+
+        </dialog>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+
+            <!-- FOOTER BRAND -->
+
+            <div class="footer-brand">
+
+                <a
+                    class="logo"
+                    href="index.html"
+                >
+
+                    <span class="logo-icon">
+                        &lt;/&gt;
+                    </span>
+
+                    <span>
+                        CODEHOUSE
+                    </span>
+
+                </a>
+
+                <p>
+                    Your home for learning and building with code.
+                </p>
+
+            </div>
+
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="courses.html">
+                    Courses
+                </a>
+
+                <a href="challenges.html">
+                    Challenges
+                </a>
+
+                <a href="resources.html">
+                    Resources
+                </a>
+
+            </div>
+
+
+
+            <!-- SUPPORT -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Support
+                </h3>
+
+                <a href="contact.html">
+                    Help Center
+                </a>
+
+                <a href="contact.html">
+                    FAQ
+                </a>
+
+                <a href="contact.html">
+                    Contact Us
+                </a>
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+            </div>
+
+
+
+            <!-- SOCIAL LINKS -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Connect With Us
+                </h3>
+
+                <div class="social-links">
+
+                    <a
+                        href="#"
+                        aria-label="Facebook"
+                    >
+                        F
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="LinkedIn"
+                    >
+                        in
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="YouTube"
+                    >
+                        ▶
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="GitHub"
+                    >
+                        GH
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 CodeHouse. All rights reserved.
+            </p>
+
+            <div>
+
+                <a href="attributions.html">
+                    Attributions
+                </a>
+
+                <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Video Demonstration
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
