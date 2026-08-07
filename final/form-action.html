@@ -23,6 +23,12 @@
     >
 
     <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+    <link
         rel="icon"
         href="images/favicon.svg"
         type="image/svg+xml"
@@ -43,6 +49,7 @@
 
 <body>
 
+
 <header class="site-header">
 
     <div class="header-container">
@@ -50,10 +57,13 @@
         <a
             class="logo"
             href="index.html"
+            aria-label="CodeHouse Home"
         >
 
             <span class="logo-icon">
-                &lt;/&gt;
+                <img src="images/codehouselogo.png"
+            alt="CodeHouse Logo">
+
             </span>
 
             <span>
@@ -62,9 +72,64 @@
 
         </a>
 
+
+        <button
+            class="menu-button"
+            id="menu-button"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="primary-navigation"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+        <nav
+            class="primary-navigation"
+            id="primary-navigation"
+            aria-label="Primary navigation"
+        >
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="courses.html">
+                Courses
+            </a>
+
+            <a
+                href="challenges.html"
+                class="active"
+                aria-current="page"
+            >
+                Challenges
+            </a>
+
+            <a href="resources.html">
+                Resources
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
     </div>
 
 </header>
+
+
 
 
 <main>
@@ -81,7 +146,7 @@
                 Challenge Submission Received
             </h1>
 
-            <p>
+            <p class="thank-you">
                 Thank you for submitting your coding challenge.
                 Your response has been received.
             </p>
@@ -99,18 +164,169 @@
 
 </main>
 
+  <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
 
-<footer class="site-footer">
+        <div class="footer-container">
 
-    <div class="footer-bottom">
+            <div class="footer-brand">
 
-        <p>
-            © 2026 CodeHouse. All rights reserved.
-        </p>
+                <a
+                    class="logo"
+                    href="index.html"
+                >
+                    <span class="logo-icon">
+                        &lt;/&gt;
+                    </span>
 
-    </div>
+                    <span>
+                        CODEHOUSE
+                    </span>
+                </a>
 
-</footer>
+                <p>
+                    Your home for learning and building with code.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="courses.html">
+                    Courses
+                </a>
+
+                <a href="challenges.html">
+                    Challenges
+                </a>
+
+                <a href="resources.html">
+                    Resources
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Support
+                </h3>
+
+                <a href="contact.html">
+                    Help Center
+                </a>
+
+                <a href="contact.html">
+                    FAQ
+                </a>
+
+                <a href="contact.html">
+                    Contact Us
+                </a>
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    Connect With Us
+                </h3>
+
+                <div class="social-links">
+
+                    <a
+                        href="https://youtube.com/ikpotokin/"
+                        aria-label="YouTube"
+                    >
+                        ▶
+                    </a>
+
+                    
+
+                    <a href="https://facebook.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="Facebook">
+
+                <i class="fab fa-facebook-f"></i>
+
+            </a>
+
+            <a href="https://x.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="Twitter / X">
+
+                <i class="fab fa-x-twitter"></i>
+
+            </a>
+
+            <a href="https://linkedin.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="LinkedIn">
+
+                <i class="fab fa-linkedin-in"></i>
+
+            </a>
+
+            <a href="https://github.com"
+               target="_blank"
+               rel="noopener"
+               aria-label="GitHub">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 CodeHouse. All rights reserved.
+            </p>
+
+            <div>
+
+                <a href="attributions.html">
+                    Attributions
+                </a>
+
+                <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Video Demonstration
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
 
 </body>
 </html>

@@ -8,7 +8,7 @@
     --cyan: #16C4E8;
     --white: #FFFFFF;
     --text: #222222;
-    --muted: #687080;
+    --muted: #3dd1ef;
     --light-bg: #F7F9FC;
     --border: #E2E6EC;
 
@@ -48,6 +48,11 @@ img {
     max-width: 100%;
     height: auto;
 }
+header img {
+
+    width: 90px;
+
+}
 
 a {
     color: inherit;
@@ -77,7 +82,7 @@ input {
 }
 
 :focus-visible {
-    outline: 3px solid var(--cyan);
+    outline: 3px solid var(--navy);
     outline-offset: 3px;
 }
 
@@ -203,13 +208,25 @@ input {
 
 .eyebrow,
 .section-label {
-    color: var(--cyan);
     font-family: var(--heading-font);
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
 }
+
+.section-label {
+    color: var(--navy);
+}
+
+.eyebrow {
+    color: var(--cyan);
+   }
+
+p {
+    color: var(--white);
+   }
+
 
 .hero-content h1 {
     margin: 1rem 0;
@@ -376,7 +393,7 @@ input {
 
 .ai-floating-card small {
     display: block;
-    color: var(--muted);
+    color: var(--navy);
 }
 
 
@@ -403,7 +420,7 @@ input {
 }
 
 .section-heading p:last-child {
-    color: var(--muted);
+    color: var(--navy);
 }
 
 .section-action {
@@ -448,7 +465,7 @@ input {
 
 .course-card:hover {
     transform: translateY(-5px);
-    border-color: var(--cyan);
+    border-color: var(--navy);
     box-shadow: 0 10px 30px rgba(5, 5, 56, 0.1);
 }
 
@@ -478,12 +495,12 @@ input {
 .course-card p {
     margin: 0.5rem 0;
 
-    color: var(--muted);
+    color: var(--navy);
     font-size: 0.8rem;
 }
 
 .course-card a {
-    color: var(--cyan);
+    color: var(--navy);
     font-size: 0.8rem;
     font-weight: 600;
 }
@@ -494,7 +511,7 @@ input {
 ========================================= */
 
 .assistant-section {
-    background: var(--light-bg);
+    background: var(--cyan);
 }
 
 .assistant-grid {
@@ -507,10 +524,21 @@ input {
 
 .assistant-card,
 .topics-card {
-    background: var(--white);
-    border: 1px solid var(--border);
+    border: 1px solid var(--cyan);
     border-radius: var(--radius);
     padding: 1.5rem;
+}
+
+.assistant-card{
+    background: var(--cyan);
+    border: 1px solid var(--navy);
+    
+}
+
+.topics-card {
+    background: var(--cyan);
+    border: 1px solid var(--navy);
+   
 }
 
 .assistant-heading {
@@ -534,10 +562,16 @@ input {
 
 .assistant-heading h2,
 .topics-card h2 {
-    color: var(--navy);
     font-family: var(--heading-font);
     font-size: 1.4rem;
 }
+
+.assistant-heading h2,
+.topics-card h2 {
+    color: var(--navy);
+    
+}
+
 
 .chat-window {
     min-height: 120px;
@@ -545,7 +579,7 @@ input {
 
     padding: 1rem;
 
-    background: var(--light-bg);
+    background: var(--cyan);
     border-radius: 8px;
 }
 
@@ -572,13 +606,27 @@ input {
     font-size: 0.7rem;
     font-weight: 600;
 }
-
-.chat-message p {
-    background: var(--white);
+.chat-hello {
+    color: var(--navy);
+}
+.chat-message,
+.chat-question,
+.chat-answer {
     padding: 0.6rem 0.8rem;
     border-radius: 8px;
 
     font-size: 0.85rem;
+
+}
+.chat-question {
+    
+    color: var(--navy);
+    
+}
+.chat-answer {
+    
+    color: var(--navy);
+   
 }
 
 .ai-form {
@@ -592,29 +640,32 @@ input {
 
     padding: 0.8rem;
 
-    border: 1px solid var(--border);
+    border: 1px solid var(--navy);
     border-radius: 6px;
+    background-color: var(--cyan);
 
-    outline: none;
+    outline: var(--navy);
 }
 
 .ai-form input:focus {
-    border-color: var(--cyan);
+    border-color: var(--navy);
 }
 
 .ai-form .button {
     padding: 0.7rem 1rem;
+    background-color: var(--navy);
+    color: var(--cyan);
 }
 
 .ai-note {
     margin-top: 0.8rem;
-    color: var(--muted);
+    color: var(--navy);
     font-size: 0.75rem;
 }
 
 .topics-card > p:not(.section-label) {
     margin: 0.8rem 0 1.5rem;
-    color: var(--muted);
+    color: var(--navy);
 }
 
 .topic-list {
@@ -626,7 +677,7 @@ input {
 .topic-list a {
     padding: 0.5rem 0.8rem;
 
-    border: 1px solid var(--cyan);
+    border: 1px solid var(--navy);
     border-radius: 20px;
 
     color: var(--navy);
@@ -634,7 +685,8 @@ input {
 }
 
 .topic-list a:hover {
-    background: var(--cyan);
+    background: var(--navy);
+    color: var(--cyan);
 }
 
 
@@ -665,13 +717,13 @@ input {
 
 .challenge-card:hover {
     transform: translateY(-5px);
-    border-color: var(--cyan);
+    border-color: var(--navy);
 }
 
 .challenge-icon {
     margin-bottom: 1rem;
 
-    color: var(--cyan);
+    color: var(--navy);
     font-family: var(--code-font);
     font-size: 2rem;
 }
@@ -688,19 +740,11 @@ input {
     font-weight: 600;
 }
 
-.beginner {
-    background: #E7F8FC;
-    color: var(--navy);
-}
-
-.intermediate {
-    background: #EAF0FF;
-    color: var(--navy);
-}
-
+.beginner,
+.intermediate,
 .advanced {
-    background: #F2EAFE;
-    color: var(--navy);
+    background: var(--navy);
+    color: var(--white);
 }
 
 .challenge-card h3 {
@@ -710,11 +754,11 @@ input {
 
 .challenge-card p {
     margin: 0.7rem 0 1rem;
-    color: var(--muted);
+    color: var(--navy);
 }
 
 .challenge-card a {
-    color: var(--cyan);
+    color: var(--navy);
     font-weight: 600;
 }
 
@@ -724,7 +768,7 @@ input {
 ========================================= */
 
 .resources-section {
-    background: var(--light-bg);
+    background: var(--cyan);
 }
 
 .resource-grid {
@@ -739,8 +783,7 @@ input {
 .resource-card {
     padding: 1.5rem;
 
-    background: var(--white);
-    border: 1px solid var(--border);
+    border: 1px solid var(--navy);
     border-radius: var(--radius);
 
     transition: var(--transition);
@@ -748,12 +791,12 @@ input {
 
 .resource-card:hover {
     transform: translateY(-5px);
-    border-color: var(--cyan);
+    border-color: var(--navy);
     box-shadow: 0 10px 30px rgba(5, 5, 56, 0.08);
 }
 
 .resource-icon {
-    color: var(--cyan);
+    color: var(--navy);
     font-size: 1.8rem;
 }
 
@@ -766,7 +809,7 @@ input {
 }
 
 .resource-card p {
-    color: var(--muted);
+    color: var(--navy);
     font-size: 0.85rem;
 }
 
@@ -774,7 +817,7 @@ input {
     display: inline-block;
     margin-top: 1rem;
 
-    color: var(--cyan);
+    color: var(--navy);
     font-size: 0.8rem;
     font-weight: 600;
 }
@@ -818,14 +861,13 @@ input {
 }
 
 .stars {
-    color: var(--cyan);
     letter-spacing: 0.15rem;
 }
 
 .testimonial-card blockquote {
     margin: 1rem 0;
 
-    color: var(--muted);
+    color: var(--navy);
     font-size: 1rem;
     font-style: italic;
 }
@@ -837,7 +879,7 @@ input {
 }
 
 .testimonial-role {
-    color: var(--muted);
+    color: var(--navy);
     font-size: 0.8rem;
 }
 
@@ -858,7 +900,7 @@ input {
 }
 
 .testimonial-dots span.active {
-    background: var(--cyan);
+    background: var(--navy);
 }
 
 
@@ -893,7 +935,9 @@ input {
     color: rgba(255, 255, 255, 0.75);
 }
 
-
+.thank-you {
+    color: var(--navy);
+}
 /* =========================================
    FOOTER
 ========================================= */
@@ -973,7 +1017,7 @@ input {
 
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--white);
     font-size: 0.75rem;
 }
 

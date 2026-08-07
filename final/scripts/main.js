@@ -123,7 +123,7 @@ function setupAIAssistant() {
             "chat-message user-message";
 
         userMessage.innerHTML = `
-            <p>
+            <p class="chat-question">
                 ${question}
             </p>
         `;
@@ -142,7 +142,7 @@ function setupAIAssistant() {
                 AI
             </div>
 
-            <p>
+            <p class="chat-answer">
                 Great question! CodeHouse AI can help
                 explain "${question}" step by step.
             </p>
