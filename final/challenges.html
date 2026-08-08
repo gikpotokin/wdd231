@@ -55,7 +55,13 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer">
 
+    
     <link
+        rel="stylesheet"
+        href="styles/challenges.css"
+    >
+
+        <link
         rel="stylesheet"
         href="styles/small.css"
     >
@@ -65,14 +71,15 @@
         href="styles/large.css"
     >
 
-    <link
-        rel="stylesheet"
-        href="styles/challenges.css"
-    >
-
+    
     <script
         type="module"
         src="scripts/challenges.js"
+    ></script>
+
+    <script
+        type="module"
+        src="scripts/main.js"
     ></script>
 
 </head>
@@ -145,13 +152,10 @@
                 Resources
             </a>
 
-            <a href="about.html">
-                About
+            <a href="https://github.com/CodeHouse-Cloud/codehouse/tree/main/codehouse-cloud-frontend/src/app" target="_blank" rel="noopener" aria-label="CodeHouse Enterprise Version">
+                View Enterprise Version
             </a>
 
-            <a href="contact.html">
-                Contact
-            </a>
 
         </nav>
 
@@ -190,7 +194,6 @@
         <div class="challenge-page-grid">
 
 
-            <!-- BEGINNER -->
 
             <article class="challenge-level-card">
 
@@ -234,7 +237,6 @@
             </article>
 
 
-            <!-- INTERMEDIATE -->
 
             <article class="challenge-level-card">
 
@@ -326,7 +328,6 @@
     </section>
 
 
-    <!-- CHALLENGE FORM -->
 
     <section
         class="challenge-form-section"
@@ -389,6 +390,43 @@
                         </option>
 
                     </select>
+
+                </div>
+
+                <div
+                    class="challenge-question"
+                    id="challenge-question"
+                >
+
+                    <div class="question-header">
+
+                        <span class="question-icon">
+                            ?
+                        </span>
+
+                        <div>
+
+                            <p class="question-label">
+                                YOUR CHALLENGE
+                            </p>
+
+                            <h3>
+                                Coding Problem
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="question-body">
+
+                        <p id="challenge-question-text">
+                            Select a challenge above to receive
+                            your question.
+                        </p>
+
+                    </div>
 
                 </div>
 
@@ -458,7 +496,6 @@
 
 </main>
 
-  <!-- ================= FOOTER ================= -->
     <footer class="site-footer">
 
         <div class="footer-container">
@@ -621,6 +658,61 @@
 
     </footer>
 
+
+<div class="enterprise-announcement" aria-label="CodeHouse Enterprise announcement">
+
+    <div class="announcement-track">
+
+        <a
+            href="https://github.com/CodeHouse-Cloud/codehouse"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="announcement-message"
+        >
+            <span class="announcement-badge">
+                CODEHOUSE ENTERPRISE (FRONTEND)
+            </span>
+
+            <span>
+                The enterprise version of this project is available
+                on GitHub. Click here to see the project framework,
+                architecture, and development details for possible
+                collaborations.
+            </span>
+
+            <span class="announcement-arrow">
+                →
+            </span>
+        </a>
+
+
+        <a
+            href="https://github.com/CodeHouse-Cloud/codehouse-backend"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="announcement-message"
+            aria-hidden="true"
+            tabindex="-1"
+        >
+            <span class="announcement-badge">
+                CODEHOUSE ENTERPRISE (BACKEND)
+            </span>
+
+            <span>
+                The enterprise version of this project is available
+                on GitHub. Click here to see the project framework,
+                architecture, and development details for possible
+                collaborations.
+            </span>
+
+            <span class="announcement-arrow">
+                →
+            </span>
+        </a>
+
+    </div>
+
+</div>
 
 </body>
 </html>

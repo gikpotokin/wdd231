@@ -30,7 +30,6 @@
     >
 
 
-    <!-- ================= OPEN GRAPH ================= -->
 
     <meta
         property="og:title"
@@ -58,16 +57,14 @@
     >
 
 
-    <!-- ================= FAVICON ================= -->
 
     <link
         rel="icon"
-        href="images/favicon.svg"
-        type="image/svg+xml"
+        href="images/favicon.ico"
+        type="image/x-icon"
     >
 
 
-    <!-- ================= GOOGLE FONTS ================= -->
 
     <link
         rel="preconnect"
@@ -92,7 +89,6 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous"
         referrerpolicy="no-referrer">
-    <!-- ================= CSS ================= -->
 
     <link
         rel="stylesheet"
@@ -110,7 +106,11 @@
     >
 
 
-    <!-- ================= JAVASCRIPT ================= -->
+
+    <script
+        type="module"
+        src="scripts/main.js"
+    ></script>
 
     <script
         type="module"
@@ -123,14 +123,12 @@
 <body>
 
 
-    <!-- ================= HEADER ================= -->
 
     <header class="site-header">
 
         <div class="header-container">
 
 
-            <!-- LOGO -->
 
             <a
                 class="logo"
@@ -151,7 +149,6 @@
             </a>
 
 
-            <!-- MOBILE MENU BUTTON -->
 
             <button
                 class="menu-button"
@@ -169,7 +166,6 @@
             </button>
 
 
-            <!-- NAVIGATION -->
 
             <nav
                 class="primary-navigation"
@@ -197,12 +193,8 @@
                     Resources
                 </a>
 
-                <a href="about.html">
-                    About
-                </a>
-
-                <a href="contact.html">
-                    Contact
+                 <a href="https://github.com/CodeHouse-Cloud/codehouse/tree/main/codehouse-cloud-frontend/src/app" target="_blank" rel="noopener" aria-label="CodeHouse Enterprise Version">
+                View Enterprise Version
                 </a>
 
             </nav>
@@ -213,12 +205,10 @@
 
 
 
-    <!-- ================= MAIN CONTENT ================= -->
 
     <main>
 
 
-        <!-- ================= PAGE HERO ================= -->
 
         <section class="page-hero">
 
@@ -244,7 +234,6 @@
 
 
 
-        <!-- ================= COURSE SEARCH AND FILTER ================= -->
 
         <section
             class="course-controls-section"
@@ -261,7 +250,6 @@
                 </h2>
 
 
-                <!-- SEARCH -->
 
                 <div class="course-search">
 
@@ -280,7 +268,6 @@
                 </div>
 
 
-                <!-- LEVEL FILTER -->
 
                 <div class="course-filter">
 
@@ -319,7 +306,6 @@
 
 
 
-        <!-- ================= COURSES ================= -->
 
         <section
             class="courses-section"
@@ -341,7 +327,6 @@
                 </div>
 
 
-                <!-- JavaScript updates this -->
 
                 <p
                     id="course-count"
@@ -354,7 +339,7 @@
 
 
             <!-- JavaScript dynamically inserts
-                 the 15+ courses here -->
+                  courses here -->
 
             <div
                 id="course-container"
@@ -372,7 +357,6 @@
 
 
 
-        <!-- ================= COURSE MODAL ================= -->
 
         <dialog
             id="course-modal"
@@ -383,7 +367,6 @@
             <div class="modal-content">
 
 
-                <!-- CLOSE BUTTON -->
 
                 <button
                     id="modal-close"
@@ -395,7 +378,6 @@
                 </button>
 
 
-                <!-- COURSE CATEGORY -->
 
                 <p
                     class="section-label"
@@ -405,7 +387,6 @@
                 </p>
 
 
-                <!-- COURSE TITLE -->
 
                 <h2 id="modal-title">
                     Course Details
@@ -421,7 +402,6 @@
                 </div>
 
 
-                <!-- LOCAL STORAGE BUTTON -->
 
                 <button
                     id="save-course"
@@ -604,6 +584,66 @@
 
     </footer>
 
+
+<!-- =========================================
+     CODEHOUSE ENTERPRISE ANNOUNCEMENT
+========================================= -->
+
+<div class="enterprise-announcement" aria-label="CodeHouse Enterprise announcement">
+
+    <div class="announcement-track">
+
+        <a
+            href="https://github.com/CodeHouse-Cloud/codehouse"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="announcement-message"
+        >
+            <span class="announcement-badge">
+                CODEHOUSE ENTERPRISE (FRONTEND)
+            </span>
+
+            <span>
+                The enterprise version of this project is available
+                on GitHub. Click here to see the project framework,
+                architecture, and development details for possible
+                collaborations.
+            </span>
+
+            <span class="announcement-arrow">
+                →
+            </span>
+        </a>
+
+        <!-- Duplicate for continuous scrolling -->
+
+        <a
+            href="https://github.com/CodeHouse-Cloud/codehouse-backend"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="announcement-message"
+            aria-hidden="true"
+            tabindex="-1"
+        >
+            <span class="announcement-badge">
+                CODEHOUSE ENTERPRISE (BACKEND)
+            </span>
+
+            <span>
+                The enterprise version of this project is available
+                on GitHub. Click here to see the project framework,
+                architecture, and development details for possible
+                collaborations.
+            </span>
+
+            <span class="announcement-arrow">
+                →
+            </span>
+        </a>
+
+    </div>
+
+</div>
 
 </body>
 

@@ -49,7 +49,7 @@
 .challenge-level-card:hover {
     transform: translateY(-5px);
     border-color: #16C4E8;
-    box-shadow: 0 15px 35px rgba(5, 5, 56, 0.08);
+    box-shadow: 0 15px 35px rgba(22, 196, 232, 0.08);
 }
 
 .challenge-level-card .challenge-icon {
@@ -191,6 +191,250 @@
 
     .challenge-form-section {
         padding: 6rem 2rem;
+    }
+
+}
+
+
+/* =========================================
+   GENERATED CHALLENGE QUESTION
+========================================= */
+
+.challenge-question {
+    margin: 1.5rem 0 2rem;
+
+    padding: 1.5rem;
+
+    background: #F7F9FC;
+
+    border: 1px solid #050538;
+    border-left: 5px solid #050538;
+
+    border-radius: 10px;
+
+    opacity: 0.75;
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.challenge-question.question-visible {
+    opacity: 1;
+
+    box-shadow:
+        0 10px 30px
+        rgba(5, 5, 56, 0.08);
+
+    transform: translateY(0);
+}
+
+
+/* =========================================
+   QUESTION HEADER
+========================================= */
+
+.question-header {
+    display: flex;
+
+    align-items: center;
+
+    gap: 1rem;
+
+    margin-bottom: 1.2rem;
+}
+
+
+.question-icon {
+    width: 42px;
+    height: 42px;
+
+    display: grid;
+
+    place-items: center;
+
+    flex: 0 0 auto;
+
+    background: #050538;
+
+    color: #16C4E8;
+
+    border-radius: 50%;
+
+    font-family: "Fira Code", monospace;
+
+    font-size: 1.3rem;
+
+    font-weight: 700;
+}
+
+
+.question-label {
+    margin: 0 0 0.2rem;
+
+    color: #050538;
+
+    font-family: "Fira Code", monospace;
+
+    font-size: 0.7rem;
+
+    font-weight: 700;
+
+    letter-spacing: 0.08em;
+}
+
+
+.question-header h3 {
+    margin: 0;
+
+    color: #050538;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 1.1rem;
+}
+
+
+/* =========================================
+   QUESTION BODY
+========================================= */
+
+.question-body {
+    padding: 1.2rem;
+
+    background: #FFFFFF;
+
+    border: 1px solid #050538;
+
+    border-radius: 8px;
+}
+
+
+.question-body p {
+    margin: 0;
+
+    color: #050538;
+
+    font-size: 0.95rem;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   ANSWER AREA
+========================================= */
+
+#answer {
+    min-height: 260px;
+
+    line-height: 1.7;
+
+    font-family: "Fira Code", monospace;
+
+    font-size: 0.85rem;
+}
+
+
+/* =========================================
+   SUBMIT SUCCESS
+========================================= */
+
+.submission-success {
+    background: #16C4E8 !important;
+
+    color: #050538 !important;
+
+    cursor: default;
+}
+
+
+.submission-message {
+    display: none;
+
+    align-items: flex-start;
+
+    gap: 1rem;
+
+    margin-top: 1.5rem;
+
+    padding: 1.2rem;
+
+    border: 1px solid #050538;
+
+    border-radius: 10px;
+
+    background: #F7F9FC;
+
+    color: #050538;
+}
+
+
+.submission-message.show {
+    display: flex;
+}
+
+
+.submission-icon {
+    width: 36px;
+    height: 36px;
+
+    display: grid;
+
+    place-items: center;
+
+    flex: 0 0 auto;
+
+    border-radius: 50%;
+
+    background: #000000;
+
+    color: #14d1f7;
+
+    font-weight: 700;
+}
+
+
+.submission-message strong {
+    display: block;
+
+    margin-bottom: 0.3rem;
+
+    font-family: "Poppins", sans-serif;
+}
+
+
+.submission-message p {
+    margin: 0.35rem 0;
+
+    font-size: 0.85rem;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   DESKTOP
+========================================= */
+
+@media screen and (min-width: 768px) {
+
+    .challenge-question {
+        padding: 2rem;
+    }
+
+
+    .question-body {
+        padding: 1.5rem 1.8rem;
+    }
+
+
+    .question-body p {
+        font-size: 1rem;
+
+        line-height: 1.9;
     }
 
 }

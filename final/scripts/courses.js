@@ -36,10 +36,6 @@ let allCourses = [];
 let selectedCourse = null;
 
 
-/* =========================================
-   FETCH COURSES
-========================================= */
-
 async function getCourses() {
 
     try {
@@ -92,9 +88,6 @@ async function getCourses() {
 }
 
 
-/* =========================================
-   DISPLAY COURSES
-========================================= */
 
 function displayCourses(courses) {
 
@@ -194,10 +187,6 @@ function displayCourses(courses) {
 }
 
 
-/* =========================================
-   COURSE ICON
-========================================= */
-
 function getCourseIcon(language) {
 
     const icons = {
@@ -244,9 +233,6 @@ function getCourseIcon(language) {
 }
 
 
-/* =========================================
-   OPEN MODAL
-========================================= */
 
 function openCourseModal(courseId) {
 
@@ -321,9 +307,6 @@ function openCourseModal(courseId) {
 }
 
 
-/* =========================================
-   CLOSE MODAL
-========================================= */
 
 modalClose.addEventListener(
     "click",
@@ -332,10 +315,6 @@ modalClose.addEventListener(
     }
 );
 
-
-/* =========================================
-   CLOSE MODAL WHEN CLICKING OUTSIDE
-========================================= */
 
 modal.addEventListener(
     "click",
@@ -367,10 +346,6 @@ modal.addEventListener(
     }
 );
 
-
-/* =========================================
-   LOCAL STORAGE
-========================================= */
 
 function getSavedCourses() {
 
@@ -464,11 +439,6 @@ saveCourseButton.addEventListener(
     saveCurrentCourse
 );
 
-
-/* =========================================
-   SEARCH AND FILTER
-========================================= */
-
 function filterCourses() {
 
     const searchTerm =
@@ -539,10 +509,5 @@ levelFilter.addEventListener(
 );
 
 
-/* =========================================
-   INITIALIZE
-========================================= */
-
-setupNavigation();
 
 getCourses();
