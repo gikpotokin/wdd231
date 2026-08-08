@@ -219,7 +219,7 @@ function generateAIResponse(question) {
 
                     <div class="ai-tip">
                         <strong>💡 CodeHouse Tip</strong>
-                        <p>
+                        <p class ="ai-knowledge">
                             ${knowledge.tip}
                         </p>
                     </div>
@@ -335,7 +335,7 @@ function generateAIResponse(question) {
             "Let's solve it together",
 
         content: `
-            <p>
+            <p class ="ai-knowledge">
                 That's an interesting programming
                 question. Let's approach it like a
                 software engineer.
@@ -343,13 +343,13 @@ function generateAIResponse(question) {
 
             <h4>Try being more specific</h4>
 
-            <p>
+            <p class ="ai-knowledge">
                 Tell me the programming language,
                 framework, or technology you are working
                 with.
             </p>
 
-            <p>
+            <p class ="ai-knowledge">
                 For example:
             </p>
 
@@ -377,7 +377,7 @@ function generateAIResponse(question) {
 
             <div class="ai-tip">
                 <strong>🤖 CodeHouse AI</strong>
-                <p>
+                <p class ="ai-knowledge">
                     Ask me a "what", "why", or "how"
                     question and I'll break the concept
                     down step by step.

@@ -550,6 +550,7 @@ p {
 
 
     border: 1px solid var(--navy);
+    color: var(--navy);
 
     border-radius: 10px;
 
@@ -974,6 +975,12 @@ p {
     text-align: center;
 
 }
+
+
+.chat-hello {
+    color: var(--navy);
+}
+
 
 
 
@@ -1638,8 +1645,4 @@ p {
 
     }
 
-}
-
-.chat-hello {
-    color: var(--);
 }
